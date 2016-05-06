@@ -1,15 +1,7 @@
-#
-# Be sure to run `pod lib lint MarvelClient.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "MarvelClient"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MarvelClient."
+  s.summary          = "Swift client to access Marvel Comic's public API."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,24 +9,21 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  s.description      =   s.description      = <<-DESC
+                          Swift client to access Marvel Comic's public API. This
+                          API has strongly typed entities for the Marvel provided endpoints. You'll
+                          need to get a key to use the API from the Marvel developer
+                          portal (http://developer.marvel.com) to be able to access the API.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MarvelClient"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/eduarenas80/MarvelClient"
   s.license          = 'MIT'
-  s.author           = { "Eduardo Arenas" => "eduardo.arenas@gamechanger.io" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MarvelClient.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Eduardo Arenas" => "eapdev@gmail.com" }
+  s.source           = { :git => "https://github.com/eduarenas80/MarvelClient.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MarvelClient/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MarvelClient' => ['MarvelClient/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
