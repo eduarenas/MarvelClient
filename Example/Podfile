@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MarvelClient_Example', :exclusive => true do
+  pod 'MarvelClient', :path => '../'
+end
+
+target 'MarvelClient_Tests', :exclusive => true do
+  pod 'MarvelClient', :path => '../'
+
+  
+end
