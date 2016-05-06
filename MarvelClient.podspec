@@ -3,12 +3,6 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Swift client to access Marvel Comic's public API."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      =   s.description      = <<-DESC
                           Swift client to access Marvel Comic's public API. This
                           API has strongly typed entities for the Marvel provided endpoints. You'll
@@ -25,7 +19,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MarvelClient/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire', '~> 3.3'
 end

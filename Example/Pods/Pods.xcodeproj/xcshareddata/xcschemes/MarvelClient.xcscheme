@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F00E61EDE1769A061B698A3"
+               BlueprintIdentifier = "9B2417D3A8C724008BDEEB9D"
                BuildableName = "MarvelClient.framework"
                BlueprintName = "MarvelClient"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -1,19 +1,24 @@
 {
   "name": "MarvelClient",
   "version": "0.1.0",
-  "summary": "A short description of MarvelClient.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MarvelClient",
+  "summary": "Swift client to access Marvel Comic's public API.",
+  "description": "Swift client to access Marvel Comic's public API. This\nAPI has strongly typed entities for the Marvel provided endpoints. You'll\nneed to get a key to use the API from the Marvel developer\nportal (http://developer.marvel.com) to be able to access the API.",
+  "homepage": "https://github.com/eduarenas80/MarvelClient",
   "license": "MIT",
   "authors": {
-    "Eduardo Arenas": "eduardo.arenas@gamechanger.io"
+    "Eduardo Arenas": "eapdev@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MarvelClient.git",
+    "git": "https://github.com/eduarenas80/MarvelClient.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MarvelClient/Classes/**/*"
+  "source_files": "MarvelClient/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 3.3"
+    ]
+  }
 }

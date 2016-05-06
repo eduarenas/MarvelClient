@@ -1,5 +1,7 @@
 PODS:
-  - MarvelClient (0.1.0)
+  - Alamofire (3.3.1)
+  - MarvelClient (0.1.0):
+    - Alamofire (~> 3.3)
 
 DEPENDENCIES:
   - MarvelClient (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MarvelClient: 36c14fc8add163e1aac77547db61940a65adab8c
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  MarvelClient: b1e335196ba0acd52bcc3f6b1e1f043f1de206d3
 
 COCOAPODS: 0.38.2
