@@ -1,0 +1,19 @@
+{
+  "name": "MarvelClient",
+  "version": "0.1.0",
+  "summary": "A short description of MarvelClient.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MarvelClient",
+  "license": "MIT",
+  "authors": {
+    "Eduardo Arenas": "eduardo.arenas@gamechanger.io"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MarvelClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MarvelClient/Classes/**/*"
+}

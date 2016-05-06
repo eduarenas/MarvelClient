@@ -1,0 +1,14 @@
+PODS:
+  - MarvelClient (0.1.0)
+
+DEPENDENCIES:
+  - MarvelClient (from `../`)
+
+EXTERNAL SOURCES:
+  MarvelClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarvelClient: 36c14fc8add163e1aac77547db61940a65adab8c
+
+COCOAPODS: 0.38.2
