@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.source_files = 'MarvelClient/Classes/**/*'
 
   s.dependency 'Alamofire', '~> 3.3'
+  s.dependency 'MD5', '~> 0.1'
 end

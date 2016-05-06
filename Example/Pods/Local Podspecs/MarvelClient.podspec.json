@@ -19,6 +19,9 @@
   "dependencies": {
     "Alamofire": [
       "~> 3.3"
+    ],
+    "MD5": [
+      "~> 0.1"
     ]
   }
 }

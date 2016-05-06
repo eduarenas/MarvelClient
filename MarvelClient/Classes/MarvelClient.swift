@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import Alamofire
+
+public class MarvelClient {
+  private let requestBuilder: MarvelRequestBuilder
+  
+  init(privateKey: String, publicKey: String) {
+    self.requestBuilder = MarvelRequestBuilder(privateKey: privateKey, publicKey: publicKey)
+  }
+  
+
+}

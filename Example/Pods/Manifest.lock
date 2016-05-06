@@ -2,6 +2,8 @@ PODS:
   - Alamofire (3.3.1)
   - MarvelClient (0.1.0):
     - Alamofire (~> 3.3)
+    - MD5 (~> 0.1)
+  - MD5 (0.1.1)
 
 DEPENDENCIES:
   - MarvelClient (from `../`)
@@ -12,6 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
-  MarvelClient: b1e335196ba0acd52bcc3f6b1e1f043f1de206d3
+  MarvelClient: cac7c62358517610e9be33fc4e8fc6f05e36f463
+  MD5: 62e4416c91af0514c6aeeb6e6d80171f3bd48c3f
 
 COCOAPODS: 0.38.2

@@ -53,9 +53,11 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-MarvelClient_Example/Alamofire.framework'
+  install_framework 'Pods-MarvelClient_Example/MD5.framework'
   install_framework 'Pods-MarvelClient_Example/MarvelClient.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-MarvelClient_Example/Alamofire.framework'
+  install_framework 'Pods-MarvelClient_Example/MD5.framework'
   install_framework 'Pods-MarvelClient_Example/MarvelClient.framework'
 fi
