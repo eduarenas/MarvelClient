@@ -9,16 +9,20 @@
 import Foundation
 import SwiftyJSON
 
-struct Event: JSONSerializable {
+struct Event: Entity {
  
   init(json: JSON) {
     
   }
 }
 
-struct EventSummary: JSONSerializable {
+struct EventSummary: EntitySummary {
+  
+  let resourceURI: String
+  let name: String
   
   init(json: JSON) {
-    
+    self.resourceURI = json["resourceURI"].string!
+    self.name = json["name"].string!
   }
 }

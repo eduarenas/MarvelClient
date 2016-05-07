@@ -15,7 +15,7 @@ struct Url: JSONSerializable {
   let url: String
   
   init(json: JSON) {
-    self.type = json["url"].string!
+    self.type = json["type"].string!
     self.url = json["url"].string!
   }
 }
