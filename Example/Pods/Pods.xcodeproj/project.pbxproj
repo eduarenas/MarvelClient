@@ -1,3246 +1,1209 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>008A65A7F256C494FAF1876555299CDF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F285756C95D4743D574826909183677A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>013FEDB75089F1B0F6FA7477EA15B92B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>536F6E8DFEC82808AF86E48A73ABF9A2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>RequestBuilders</string>
-			<key>path</key>
-			<string>RequestBuilders</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0225BEE7A3F3B6EB280F1909798A314F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B6E81D5772B7786EC639B7EC6E8FDB37</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>3.3.1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>3</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Alamofire/Alamofire-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Alamofire/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Alamofire/Alamofire.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>Alamofire</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>02C2EFF16B83273B7FF55D21769F07DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0338941D32301F1B661947C142B458D4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MarvelClient</string>
-			<key>target</key>
-			<string>267F44B81BC8C4348925FE7E98A7E9C0</string>
-			<key>targetProxy</key>
-			<string>FD884ED86545C2473978FB69848183E5</string>
-		</dict>
-		<key>037EE7C36CC7BC3D0729B6F4BA1CC34F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B97951CE5A09DEEE1DC24485F0FE67C5</string>
-				<string>68E8F42DCA480AAFEF84E8FC24F232EF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03F1C95B00FB8B8BF35B9D7816F98B1D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>target</key>
-			<string>57733D0528E30AA10FD2647FF0713799</string>
-			<key>targetProxy</key>
-			<string>988123E906B1FD2DA281CF13D4BF8912</string>
-		</dict>
-		<key>041CFB24BFC1A1CCC4E300A3D9643461</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6525B51FB53DA30B11D2CB486CF31BAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Utils</string>
-			<key>path</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04C94A001D19E3C12DAE1C7121C3033A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Validation.swift</string>
-			<key>path</key>
-			<string>Source/Validation.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06C63F5FE0C4233D8124C2101EC4F011</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9776686FA069DC27C806F0738DEA9976</string>
-				<string>DA57B06C4784B06215B434C4A3B9DF88</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0812B893C7ADA3A5D4785D96A5860D56</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2C7DF9C3BBC8EBD2E56AA1880B944DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0B83655A00449DA5273A2FB2F75B1900</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>28BC371EF0A07F0DFF3B908BF7438365</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0EBEF01363818C4F797137A528CAD190</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4428FD10F7C52259B35ADEE30353C152</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>10ED9459DAC4B97C30D326B7A62D84EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>78B19D29BEBDFC3E2F2DF1746AE5C4C7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>136E55F3738B2123BBDE0D0AD4198A0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MD5.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1485B4DF016D6697A99C26FEDE0E8C1E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>22BC5FC47A3CB215722B75DF5E4E1728</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.0</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.0</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MarvelClient/MarvelClient-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MarvelClient/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MarvelClient/MarvelClient.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>MarvelClient</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>14E7DFDFBBB232ABAECCEEF583F66287</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>539B3D38FF461E4C60A5D71D9A858A6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>15297CA3E2EC0834E744A56DA7A98F3E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DAFC6507D3ACC15BEB566A04D550E664</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1657CCC68EAB3BE530DA84BFC35E403B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1B9217BD5F1FBCD87443D520A8749E5E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19A9BD26A42FBCBF5E44EA4CEDCACFF3</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MD5</string>
-			<key>target</key>
-			<string>C3578DA2A65CF70887CA9F4FC8432459</string>
-			<key>targetProxy</key>
-			<string>5D009625BBC7077375A8F78753601D72</string>
-		</dict>
-		<key>1A211CD881CE34D1104C67FAC5671DDA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B9217BD5F1FBCD87443D520A8749E5E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>80C2B4FEA88E57143CEC3D2E64E79771</string>
-				<string>7B43D44947D4E7E2CCF172CE611A3BD7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MarvelClient</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BC6854E787A39AF13DF5FAE1543EFD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Utils.swift</string>
-			<key>path</key>
-			<string>Sources/Utils.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C02AA2A7CA0AE1B73A67309D9267929</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F64667F75298F336CDF2516030EC5B52</string>
-				<string>5E1523FEE3B1A633FD8B4E4A69D7A7A9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>20CCEF6A0E8D1B339F1E5CFEDCDE67A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Alamofire-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21CC8B40E5D29595471AB89A7AE95526</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9AAB9970C94E088AEE94A178C133A88F</string>
-				<string>B04AE1161F175D045A3035E342157321</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>22BC5FC47A3CB215722B75DF5E4E1728</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MarvelClient-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23B1EB7F2A15B7F4E5B1B51D703D4F3F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>target</key>
-			<string>57733D0528E30AA10FD2647FF0713799</string>
-			<key>targetProxy</key>
-			<string>B4DBC1DC32E5CD6AFFEFE1BC568B2F69</string>
-		</dict>
-		<key>2435A3F9FB3E5A647F1A12A826075D3C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1C02AA2A7CA0AE1B73A67309D9267929</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3F33049B98C7614341D9FAF69B6A5150</string>
-				<string>86DC5D92FB7B6F069C90C9184A4672EE</string>
-				<string>8E95B511BC372D2FD265ADB8DA7B47B6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>23B1EB7F2A15B7F4E5B1B51D703D4F3F</string>
-				<string>19A9BD26A42FBCBF5E44EA4CEDCACFF3</string>
-				<string>5EC0AA5FD7D2962DD57B25CD69FC6B59</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MarvelClient_Tests</string>
-			<key>productName</key>
-			<string>Pods-MarvelClient_Tests</string>
-			<key>productReference</key>
-			<string>8E6C5DC83A31D47E198FE124D784EA8D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>267F44B81BC8C4348925FE7E98A7E9C0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E2637B1F36485B084210A028682CE53E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C39984C3A37304274CF3644A85860479</string>
-				<string>AF5B85F7EC6E7F95CB0923C2DCC1DB6E</string>
-				<string>E5597478867BBAA5226A402199722CCB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>03F1C95B00FB8B8BF35B9D7816F98B1D</string>
-				<string>76840BF5E70FE654536E7C1017936CEB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MarvelClient</string>
-			<key>productName</key>
-			<string>MarvelClient</string>
-			<key>productReference</key>
-			<string>C28C7E57C70CEC0A7105DEE162D3E6C4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>26BE14D571D4537BF046BBC5A5CADF04</key>
-		<dict>
-			<key>fileRef</key>
-			<string>04C94A001D19E3C12DAE1C7121C3033A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28BC371EF0A07F0DFF3B908BF7438365</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA6FF3D7CEF87372EA276E573BE53013</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>29B7E793F0A1A9FDDC85ED57DEA5B0F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D265A6A03BB4B668F4B091662BF9F59</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A7E8F317CFBB82AAEC41AD2AAEA2D17A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>552D02D5BA751AC2E8790D2811D496CA</string>
-				<string>10DE1947DAC0ED28F6C0A9F9BD75D546</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>33526F59977B3F585BA92ED2C0C5F59C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2C7DF9C3BBC8EBD2E56AA1880B944DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>366AB9873198473E0E04D88243981520</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>74D578D64C76FD89C201127E81F53F67</string>
-				<string>67CF135ECA76E75887DA470FD2DC140F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>38CF1E97EB044163DC62CF3BEC586921</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FFC3A369EE70C50B868526E6DF4635FB</string>
-				<string>724D37185829CCE4862A75D2B1D50C9A</string>
-				<string>8E969DD7A0BFBFEE0895BB7BB200CE0E</string>
-				<string>DF7EA18F6FFEDEF48CB9695846099401</string>
-				<string>0EBEF01363818C4F797137A528CAD190</string>
-				<string>A615227EE5DD3B43B42BB850F0D20F91</string>
-				<string>56203F73A864AED7718D4790D1B1672F</string>
-				<string>E6B25DC63419D2653FCC0DA38F607C83</string>
-				<string>F586B2525A58C016ADC9E4138BCC8EB2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3C25124EE60EEFA8F99F8876208A11F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Alamofire.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F044C1300A238A596D93FDA93A75C85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B911FDD13CD4D03E8556F7B2C84078F3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3F33049B98C7614341D9FAF69B6A5150</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2D265A6A03BB4B668F4B091662BF9F59</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>41E7102F9B0A7EE1E0246F11149D785B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE3025BB34CB03327E00BBAF87D2551B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4316C69E4BC40C10AA612E69D00D0F7C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>536F6E8DFEC82808AF86E48A73ABF9A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4428FD10F7C52259B35ADEE30353C152</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>IntExtension.swift</string>
-			<key>path</key>
-			<string>Sources/IntExtension.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>444C8033AABD0AD1460A0D4CDD1AD30B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MD5</string>
-			<key>target</key>
-			<string>C3578DA2A65CF70887CA9F4FC8432459</string>
-			<key>targetProxy</key>
-			<string>EE44B2223940BA64E2EFC679AB3A06AF</string>
-		</dict>
-		<key>45EE9BC5EE5E85CA7ADDC1CE5A3F6BDE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MD5.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>463DE96771419C2841DC772A47D65F9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Download.swift</string>
-			<key>path</key>
-			<string>Source/Download.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47A9E614D81B61AFAB51D53D4DFDB400</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AD38D1B358FC4D7E622F309AF585C7DE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DF4E827A1D2D42C1578386A85CF8D86</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FEB922C5B3B7374D271F8B36A2D3D8BA</string>
-				<string>ADBD1F30AA50EBBEDCBEA00AC6C8E6F5</string>
-				<string>548D6C8B4C4CFD6B47655CEFF2A3A9E4</string>
-				<string>7BEDF7A870CBD20638407BCC85B7DB40</string>
-				<string>9EAD482F89F0919DC783DA7CCCAABB69</string>
-				<string>4EFEC43FFA220A43B3F1463A6869173A</string>
-				<string>DD41DC7D8516C6A850E9B5F26927C5E4</string>
-				<string>E6C603F66D8D7C51ACD8D6131871845E</string>
-				<string>3F044C1300A238A596D93FDA93A75C85</string>
-				<string>AF21B1B00CC273460268052BFD66B1BA</string>
-				<string>6FDE39FC2DDDEC4C08D7B3A1797967B6</string>
-				<string>B8E791F6A3A5940335C171993545A4AA</string>
-				<string>DBC01513B352A6F6F4BF2D74CCB00AE1</string>
-				<string>661241FB9A9D3A7897CED3B7EF55CA5A</string>
-				<string>10ED9459DAC4B97C30D326B7A62D84EA</string>
-				<string>B658D51EA049BCE73A82A43E9E803D27</string>
-				<string>15297CA3E2EC0834E744A56DA7A98F3E</string>
-				<string>26BE14D571D4537BF046BBC5A5CADF04</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4EFEC43FFA220A43B3F1463A6869173A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B06EBC8F6637D16B237E5AFF4261C2E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>536F6E8DFEC82808AF86E48A73ABF9A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MarvelRequestBuilder.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>539B3D38FF461E4C60A5D71D9A858A6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0FC71F519214547882A695DCA0A42B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>548D6C8B4C4CFD6B47655CEFF2A3A9E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>463DE96771419C2841DC772A47D65F9A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>552D02D5BA751AC2E8790D2811D496CA</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>56203F73A864AED7718D4790D1B1672F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FF601040C1AF7C51370D0D5EAB81AA0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>56B3ED3F99634777049C2F350DE403AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MD5-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>577020A3F857A32F624331D52D82FB00</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ServerTrustPolicy.swift</string>
-			<key>path</key>
-			<string>Source/ServerTrustPolicy.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57733D0528E30AA10FD2647FF0713799</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8026C4AFDF9B016267E494DA93FDF3BF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4DF4E827A1D2D42C1578386A85CF8D86</string>
-				<string>C7477CFC2A5E0902F09121E8D93FC108</string>
-				<string>0B83655A00449DA5273A2FB2F75B1900</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>productName</key>
-			<string>Alamofire</string>
-			<key>productReference</key>
-			<string>7D206BE494104C859076E1C9121173A4</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>58C551096EFF558365B3190343DDE124</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6525B51FB53DA30B11D2CB486CF31BAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>59B3CD4ACA3DEE404AC20D8C255E5848</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Hash.swift</string>
-			<key>path</key>
-			<string>Sources/Hash.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D009625BBC7077375A8F78753601D72</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C3578DA2A65CF70887CA9F4FC8432459</string>
-			<key>remoteInfo</key>
-			<string>MD5</string>
-		</dict>
-		<key>5D8A90FF4AED14FEB55089C59EFB19B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MD5-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E1523FEE3B1A633FD8B4E4A69D7A7A9</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AFB9A2FE29A4D8000767282A2495C5C6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Tests/Pods-MarvelClient_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MarvelClient_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5EC0AA5FD7D2962DD57B25CD69FC6B59</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MarvelClient</string>
-			<key>target</key>
-			<string>267F44B81BC8C4348925FE7E98A7E9C0</string>
-			<key>targetProxy</key>
-			<string>DD493E27321D0F0A3EE90D4D26ED98A3</string>
-		</dict>
-		<key>5F05DABC15FF01D67A595CD2902F72F4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>21CC8B40E5D29595471AB89A7AE95526</string>
-			<key>buildPhases</key>
-			<array>
-				<string>14E7DFDFBBB232ABAECCEEF583F66287</string>
-				<string>47A9E614D81B61AFAB51D53D4DFDB400</string>
-				<string>BCB90AF8C17D3F19BFEDA2FE680F74F3</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D1CFFAF789E7541DEE4D2A6493AE76C5</string>
-				<string>444C8033AABD0AD1460A0D4CDD1AD30B</string>
-				<string>0338941D32301F1B661947C142B458D4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MarvelClient_Example</string>
-			<key>productName</key>
-			<string>Pods-MarvelClient_Example</string>
-			<key>productReference</key>
-			<string>6FF545724BA5C56BEF3A08DA46488631</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>6199C97512D763B6BDD333F29F502A23</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6525B51FB53DA30B11D2CB486CF31BAB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>StringUtils.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>653D63AD305A92C0B2E760671337900C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>661241FB9A9D3A7897CED3B7EF55CA5A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>577020A3F857A32F624331D52D82FB00</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67663B1B600C6A5BB9AC8FDFF5DDD5E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>90EF5E4EDC71891CF898F419FEF5CA48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67CF135ECA76E75887DA470FD2DC140F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>973BA8AFFFD713B0DF4204165C85ED3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MD5/MD5-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MD5/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MD5/MD5.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>MD5</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>68E8F42DCA480AAFEF84E8FC24F232EF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E05A9912FAB03A5CC7103E73B52E8B09</string>
-				<string>E0892769DEEF3010879D215CA0B658A0</string>
-				<string>F9AE15F7FF07C65A7F27DD374AD9B9F7</string>
-				<string>FCDDFE555122ADAE261A532B0B852E61</string>
-				<string>A7E8F317CFBB82AAEC41AD2AAEA2D17A</string>
-				<string>6D9658400CD217EC5F1ED6DFB939980A</string>
-				<string>9EFB6AEBE7358373EDA202302E579897</string>
-				<string>6199C97512D763B6BDD333F29F502A23</string>
-				<string>9D05C7E25E4C5470363C0F0E00A1DF54</string>
-				<string>AFB9A2FE29A4D8000767282A2495C5C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MarvelClient_Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MarvelClient_Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>694511627EA5291CF9475C6173CD2281</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C352F37B73B632C73F8F7243B2859094</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6B11F2C4429C23D7EEF5C12BA89D9E60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarvelClient-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D9658400CD217EC5F1ED6DFB939980A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F9C6464F4A3839B5F39CDDF9A5FD945</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Alamofire.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FDE39FC2DDDEC4C08D7B3A1797967B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DCA1CB972CAB917E8BC6C77B63171B42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6FF545724BA5C56BEF3A08DA46488631</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_MarvelClient_Example.framework</string>
-			<key>path</key>
-			<string>Pods_MarvelClient_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>71DF3560134C1CEC8F886E64B5CE04E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>HashProtocol.swift</string>
-			<key>path</key>
-			<string>Sources/HashProtocol.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>724D37185829CCE4862A75D2B1D50C9A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8810B5A2CCBC946FC1CABE7524A06A21</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7321B7DBBCBD1A19AA9092E15C566A29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6199C97512D763B6BDD333F29F502A23</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>73CE1610A9232918CEBEAB36BCD7E8A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Request.swift</string>
-			<key>path</key>
-			<string>Source/Request.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>74D578D64C76FD89C201127E81F53F67</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>973BA8AFFFD713B0DF4204165C85ED3D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MD5/MD5-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MD5/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MD5/MD5.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>MD5</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>764BDA3B9901783B06E4A05CD0869243</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>76840BF5E70FE654536E7C1017936CEB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MD5</string>
-			<key>target</key>
-			<string>C3578DA2A65CF70887CA9F4FC8432459</string>
-			<key>targetProxy</key>
-			<string>97D10EBF66EEA6EC90A9777FACA70E3B</string>
-		</dict>
-		<key>77004B08F3AAD68B897682E6C7CD7A8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78B19D29BEBDFC3E2F2DF1746AE5C4C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Stream.swift</string>
-			<key>path</key>
-			<string>Source/Stream.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B43D44947D4E7E2CCF172CE611A3BD7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C8D42B6577B162F83DF251DCD16E0E8D</string>
-				<string>C309F97F323D62C080E5AD9F7169A372</string>
-				<string>E3F8CCDF91516FB83143348507170CAD</string>
-				<string>22BC5FC47A3CB215722B75DF5E4E1728</string>
-				<string>C352F37B73B632C73F8F7243B2859094</string>
-				<string>F5FFBBAA8510C19C9BFAB770A80EA2FB</string>
-				<string>6B11F2C4429C23D7EEF5C12BA89D9E60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/MarvelClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BDB0FE4E3460158685DA38741350C76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Notifications.swift</string>
-			<key>path</key>
-			<string>Source/Notifications.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BEDF7A870CBD20638407BCC85B7DB40</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B068D52E734D1CA88E811AFDA7B53597</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D206BE494104C859076E1C9121173A4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Alamofire.framework</string>
-			<key>path</key>
-			<string>Alamofire.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>1657CCC68EAB3BE530DA84BFC35E403B</string>
-				<string>C8146AB8A635DB755E3ACBA3A5841ED8</string>
-				<string>06C63F5FE0C4233D8124C2101EC4F011</string>
-				<string>CCA510CFBEA2D207524CDA0D73C3B561</string>
-				<string>037EE7C36CC7BC3D0729B6F4BA1CC34F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8026C4AFDF9B016267E494DA93FDF3BF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D053311C2675589D2BB1EDF064DB8C8D</string>
-				<string>0225BEE7A3F3B6EB280F1909798A314F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>80C2B4FEA88E57143CEC3D2E64E79771</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B01AD6D69D321478242B60053C2A1F50</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MarvelClient</string>
-			<key>path</key>
-			<string>MarvelClient</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8176B4F71DB6345E533CC9E09A9D6676</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86DC5D92FB7B6F069C90C9184A4672EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C3B541DD2ADF520AC536EB0671882A31</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>872E79B669D0D6639028E9E0A9662A8C</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>57733D0528E30AA10FD2647FF0713799</string>
-			<key>remoteInfo</key>
-			<string>Alamofire</string>
-		</dict>
-		<key>8810B5A2CCBC946FC1CABE7524A06A21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Generics.swift</string>
-			<key>path</key>
-			<string>Sources/Generics.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>887DF2CAA05E28CAA9C492498A4698D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6B11F2C4429C23D7EEF5C12BA89D9E60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8D7C70632FE22FC195672171ABD8CC46</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6F9C6464F4A3839B5F39CDDF9A5FD945</string>
-				<string>3C25124EE60EEFA8F99F8876208A11F8</string>
-				<string>B6E81D5772B7786EC639B7EC6E8FDB37</string>
-				<string>20CCEF6A0E8D1B339F1E5CFEDCDE67A5</string>
-				<string>77004B08F3AAD68B897682E6C7CD7A8E</string>
-				<string>BA6FF3D7CEF87372EA276E573BE53013</string>
-				<string>EBB3539EEEE4FE0C31C2D9A1160BCA5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Alamofire</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E6C5DC83A31D47E198FE124D784EA8D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_MarvelClient_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_MarvelClient_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8E95B511BC372D2FD265ADB8DA7B47B6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7321B7DBBCBD1A19AA9092E15C566A29</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E969DD7A0BFBFEE0895BB7BB200CE0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59B3CD4ACA3DEE404AC20D8C255E5848</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90EF5E4EDC71891CF898F419FEF5CA48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MarvelClient.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93D7E28B31A7191555ECCE61E072629E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>973BA8AFFFD713B0DF4204165C85ED3D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MD5-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9776686FA069DC27C806F0738DEA9976</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9BCA6335FCCC765FBD5105D4865DFDAF</string>
-				<string>463DE96771419C2841DC772A47D65F9A</string>
-				<string>B068D52E734D1CA88E811AFDA7B53597</string>
-				<string>C444314C6339F04E70E805200B60C316</string>
-				<string>B06EBC8F6637D16B237E5AFF4261C2E7</string>
-				<string>FDDBDDFEF8CE014812F06BAD22B59F3C</string>
-				<string>7BDB0FE4E3460158685DA38741350C76</string>
-				<string>B911FDD13CD4D03E8556F7B2C84078F3</string>
-				<string>73CE1610A9232918CEBEAB36BCD7E8A9</string>
-				<string>DCA1CB972CAB917E8BC6C77B63171B42</string>
-				<string>A904207A320FB72942C77D0FE6021AE5</string>
-				<string>D437B0D9004378E91E8FFAE74207EC8E</string>
-				<string>577020A3F857A32F624331D52D82FB00</string>
-				<string>78B19D29BEBDFC3E2F2DF1746AE5C4C7</string>
-				<string>E4A5CE27E6AB50746921D6CE604B4CD2</string>
-				<string>DAFC6507D3ACC15BEB566A04D550E664</string>
-				<string>04C94A001D19E3C12DAE1C7121C3033A</string>
-				<string>8D7C70632FE22FC195672171ABD8CC46</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>path</key>
-			<string>Alamofire</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97D10EBF66EEA6EC90A9777FACA70E3B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C3578DA2A65CF70887CA9F4FC8432459</string>
-			<key>remoteInfo</key>
-			<string>MD5</string>
-		</dict>
-		<key>988123E906B1FD2DA281CF13D4BF8912</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>57733D0528E30AA10FD2647FF0713799</string>
-			<key>remoteInfo</key>
-			<string>Alamofire</string>
-		</dict>
-		<key>989C2FD39E16FEA3241D3EAFAF505FDB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F2C7DF9C3BBC8EBD2E56AA1880B944DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AAB9970C94E088AEE94A178C133A88F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>764BDA3B9901783B06E4A05CD0869243</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Example/Pods-MarvelClient_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MarvelClient_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9AC4AFC016315D205BDE577BDCE8961F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MD5.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9BCA6335FCCC765FBD5105D4865DFDAF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Alamofire.swift</string>
-			<key>path</key>
-			<string>Source/Alamofire.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C312793C172E039B72A191EDA352253</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D05C7E25E4C5470363C0F0E00A1DF54</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D9F7647452DE1761038A0C5363D7EE1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>22BC5FC47A3CB215722B75DF5E4E1728</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>0.1.0</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>0.1.0</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MarvelClient/MarvelClient-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MarvelClient/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MarvelClient/MarvelClient.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>MarvelClient</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9EAD482F89F0919DC783DA7CCCAABB69</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C444314C6339F04E70E805200B60C316</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9EFB6AEBE7358373EDA202302E579897</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3BF885EC91FAB8D1A6BAB597437E219</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>MD5.framework</string>
-			<key>path</key>
-			<string>MD5.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A615227EE5DD3B43B42BB850F0D20F91</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D8A90FF4AED14FEB55089C59EFB19B5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A61FC3A892C6C1F4E1B58F348E4C83B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF450C49DDEE439B17F4232693DE9D61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A7E8F317CFBB82AAEC41AD2AAEA2D17A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A904207A320FB72942C77D0FE6021AE5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ResponseSerialization.swift</string>
-			<key>path</key>
-			<string>Source/ResponseSerialization.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD38D1B358FC4D7E622F309AF585C7DE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2C7DF9C3BBC8EBD2E56AA1880B944DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ADB4CC34FC9CCC0D4D0B2B48C59133A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B755AE20F31CCE68DD764C9066671C94</string>
-				<string>136E55F3738B2123BBDE0D0AD4198A0E</string>
-				<string>9AC4AFC016315D205BDE577BDCE8961F</string>
-				<string>973BA8AFFFD713B0DF4204165C85ED3D</string>
-				<string>5D8A90FF4AED14FEB55089C59EFB19B5</string>
-				<string>B9C37BE1D81EF8598F964FAF1B7C6A64</string>
-				<string>56B3ED3F99634777049C2F350DE403AE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/MD5</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ADBD1F30AA50EBBEDCBEA00AC6C8E6F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9BCA6335FCCC765FBD5105D4865DFDAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF21B1B00CC273460268052BFD66B1BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>73CE1610A9232918CEBEAB36BCD7E8A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF5B85F7EC6E7F95CB0923C2DCC1DB6E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>41E7102F9B0A7EE1E0246F11149D785B</string>
-				<string>33526F59977B3F585BA92ED2C0C5F59C</string>
-				<string>F08289F7580738BD8BEB67D6F9147DA4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AFB9A2FE29A4D8000767282A2495C5C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B01AD6D69D321478242B60053C2A1F50</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>90EF5E4EDC71891CF898F419FEF5CA48</string>
-				<string>DE0E19438152C4FCB7FECAFB6819C0D5</string>
-				<string>013FEDB75089F1B0F6FA7477EA15B92B</string>
-				<string>041CFB24BFC1A1CCC4E300A3D9643461</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B04AE1161F175D045A3035E342157321</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C596B8C98D3E0BD6EA3AAD738708DD96</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Example/Pods-MarvelClient_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MarvelClient_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B068D52E734D1CA88E811AFDA7B53597</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Error.swift</string>
-			<key>path</key>
-			<string>Source/Error.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B06EBC8F6637D16B237E5AFF4261C2E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>MultipartFormData.swift</string>
-			<key>path</key>
-			<string>Source/MultipartFormData.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B208D4AFAECEF73BB4F3236E0109DD4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2C7DF9C3BBC8EBD2E56AA1880B944DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4DBC1DC32E5CD6AFFEFE1BC568B2F69</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>57733D0528E30AA10FD2647FF0713799</string>
-			<key>remoteInfo</key>
-			<string>Alamofire</string>
-		</dict>
-		<key>B658D51EA049BCE73A82A43E9E803D27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E4A5CE27E6AB50746921D6CE604B4CD2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B6E81D5772B7786EC639B7EC6E8FDB37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Alamofire-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B755AE20F31CCE68DD764C9066671C94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8E791F6A3A5940335C171993545A4AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A904207A320FB72942C77D0FE6021AE5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B911FDD13CD4D03E8556F7B2C84078F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ParameterEncoding.swift</string>
-			<key>path</key>
-			<string>Source/ParameterEncoding.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B97951CE5A09DEEE1DC24485F0FE67C5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>653D63AD305A92C0B2E760671337900C</string>
-				<string>9C312793C172E039B72A191EDA352253</string>
-				<string>29B7E793F0A1A9FDDC85ED57DEA5B0F1</string>
-				<string>02C2EFF16B83273B7FF55D21769F07DC</string>
-				<string>E0FC71F519214547882A695DCA0A42B1</string>
-				<string>93D7E28B31A7191555ECCE61E072629E</string>
-				<string>1A211CD881CE34D1104C67FAC5671DDA</string>
-				<string>8176B4F71DB6345E533CC9E09A9D6676</string>
-				<string>764BDA3B9901783B06E4A05CD0869243</string>
-				<string>C596B8C98D3E0BD6EA3AAD738708DD96</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MarvelClient_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MarvelClient_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9C37BE1D81EF8598F964FAF1B7C6A64</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MD5-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BA6FF3D7CEF87372EA276E573BE53013</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Alamofire-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCB90AF8C17D3F19BFEDA2FE680F74F3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C8569E533B5EDD138EA2B9762ECE1714</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BD6CDFB5DB2E1411B005E16A6D2B1166</key>
-		<dict>
-			<key>fileRef</key>
-			<string>56B3ED3F99634777049C2F350DE403AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C27E71D19427BC3B3861DA27713D0EFF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0812B893C7ADA3A5D4785D96A5860D56</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C28C7E57C70CEC0A7105DEE162D3E6C4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>MarvelClient.framework</string>
-			<key>path</key>
-			<string>MarvelClient.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C309F97F323D62C080E5AD9F7169A372</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MarvelClient.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C352F37B73B632C73F8F7243B2859094</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>MarvelClient-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3578DA2A65CF70887CA9F4FC8432459</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>366AB9873198473E0E04D88243981520</string>
-			<key>buildPhases</key>
-			<array>
-				<string>38CF1E97EB044163DC62CF3BEC586921</string>
-				<string>C27E71D19427BC3B3861DA27713D0EFF</string>
-				<string>E058D9E685742F29785B65EB3B2F3DD4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MD5</string>
-			<key>productName</key>
-			<string>MD5</string>
-			<key>productReference</key>
-			<string>A3BF885EC91FAB8D1A6BAB597437E219</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>C39984C3A37304274CF3644A85860479</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>008A65A7F256C494FAF1876555299CDF</string>
-				<string>694511627EA5291CF9475C6173CD2281</string>
-				<string>67663B1B600C6A5BB9AC8FDFF5DDD5E6</string>
-				<string>A61FC3A892C6C1F4E1B58F348E4C83B3</string>
-				<string>4316C69E4BC40C10AA612E69D00D0F7C</string>
-				<string>58C551096EFF558365B3190343DDE124</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C3B541DD2ADF520AC536EB0671882A31</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2C7DF9C3BBC8EBD2E56AA1880B944DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C444314C6339F04E70E805200B60C316</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Manager.swift</string>
-			<key>path</key>
-			<string>Source/Manager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C596B8C98D3E0BD6EA3AAD738708DD96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7477CFC2A5E0902F09121E8D93FC108</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B208D4AFAECEF73BB4F3236E0109DD4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C8146AB8A635DB755E3ACBA3A5841ED8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE3025BB34CB03327E00BBAF87D2551B</string>
-				<string>45EE9BC5EE5E85CA7ADDC1CE5A3F6BDE</string>
-				<string>989C2FD39E16FEA3241D3EAFAF505FDB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8569E533B5EDD138EA2B9762ECE1714</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8176B4F71DB6345E533CC9E09A9D6676</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C8D42B6577B162F83DF251DCD16E0E8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8E7A9684806A4B420F15B63D4CFCE72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>BytesSequence.swift</string>
-			<key>path</key>
-			<string>Sources/BytesSequence.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCA510CFBEA2D207524CDA0D73C3B561</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D206BE494104C859076E1C9121173A4</string>
-				<string>A3BF885EC91FAB8D1A6BAB597437E219</string>
-				<string>C28C7E57C70CEC0A7105DEE162D3E6C4</string>
-				<string>6FF545724BA5C56BEF3A08DA46488631</string>
-				<string>8E6C5DC83A31D47E198FE124D784EA8D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D053311C2675589D2BB1EDF064DB8C8D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B6E81D5772B7786EC639B7EC6E8FDB37</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>3.3.1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>3</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>$(CURRENT_PROJECT_VERSION)</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Alamofire/Alamofire-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Alamofire/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Alamofire/Alamofire.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Alamofire</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D1CFFAF789E7541DEE4D2A6493AE76C5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Alamofire</string>
-			<key>target</key>
-			<string>57733D0528E30AA10FD2647FF0713799</string>
-			<key>targetProxy</key>
-			<string>872E79B669D0D6639028E9E0A9662A8C</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>CCA510CFBEA2D207524CDA0D73C3B561</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>57733D0528E30AA10FD2647FF0713799</string>
-				<string>C3578DA2A65CF70887CA9F4FC8432459</string>
-				<string>267F44B81BC8C4348925FE7E98A7E9C0</string>
-				<string>5F05DABC15FF01D67A595CD2902F72F4</string>
-				<string>2435A3F9FB3E5A647F1A12A826075D3C</string>
-			</array>
-		</dict>
-		<key>D437B0D9004378E91E8FFAE74207EC8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Result.swift</string>
-			<key>path</key>
-			<string>Source/Result.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DA57B06C4784B06215B434C4A3B9DF88</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C8E7A9684806A4B420F15B63D4CFCE72</string>
-				<string>8810B5A2CCBC946FC1CABE7524A06A21</string>
-				<string>59B3CD4ACA3DEE404AC20D8C255E5848</string>
-				<string>71DF3560134C1CEC8F886E64B5CE04E1</string>
-				<string>4428FD10F7C52259B35ADEE30353C152</string>
-				<string>FF601040C1AF7C51370D0D5EAB81AA0E</string>
-				<string>DCDC0FF5E673C4AE30FA6C3B40442FBA</string>
-				<string>1BC6854E787A39AF13DF5FAE1543EFD9</string>
-				<string>ADB4CC34FC9CCC0D4D0B2B48C59133A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MD5</string>
-			<key>path</key>
-			<string>MD5</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DAFC6507D3ACC15BEB566A04D550E664</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Upload.swift</string>
-			<key>path</key>
-			<string>Source/Upload.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBC01513B352A6F6F4BF2D74CCB00AE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D437B0D9004378E91E8FFAE74207EC8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DCA1CB972CAB917E8BC6C77B63171B42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Response.swift</string>
-			<key>path</key>
-			<string>Source/Response.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DCDC0FF5E673C4AE30FA6C3B40442FBA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>NSData+Extension.swift</string>
-			<key>path</key>
-			<string>Sources/NSData+Extension.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD41DC7D8516C6A850E9B5F26927C5E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FDDBDDFEF8CE014812F06BAD22B59F3C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD493E27321D0F0A3EE90D4D26ED98A3</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>267F44B81BC8C4348925FE7E98A7E9C0</string>
-			<key>remoteInfo</key>
-			<string>MarvelClient</string>
-		</dict>
-		<key>DE0E19438152C4FCB7FECAFB6819C0D5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F285756C95D4743D574826909183677A</string>
-				<string>EF450C49DDEE439B17F4232693DE9D61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Entities</string>
-			<key>path</key>
-			<string>Entities</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF7EA18F6FFEDEF48CB9695846099401</key>
-		<dict>
-			<key>fileRef</key>
-			<string>71DF3560134C1CEC8F886E64B5CE04E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E058D9E685742F29785B65EB3B2F3DD4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BD6CDFB5DB2E1411B005E16A6D2B1166</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E05A9912FAB03A5CC7103E73B52E8B09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0892769DEEF3010879D215CA0B658A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0FC71F519214547882A695DCA0A42B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2637B1F36485B084210A028682CE53E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9D9F7647452DE1761038A0C5363D7EE1</string>
-				<string>1485B4DF016D6697A99C26FEDE0E8C1E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E3F8CCDF91516FB83143348507170CAD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>MarvelClient.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4A5CE27E6AB50746921D6CE604B4CD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>Timeline.swift</string>
-			<key>path</key>
-			<string>Source/Timeline.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5597478867BBAA5226A402199722CCB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>887DF2CAA05E28CAA9C492498A4698D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E6B25DC63419D2653FCC0DA38F607C83</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DCDC0FF5E673C4AE30FA6C3B40442FBA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E6C603F66D8D7C51ACD8D6131871845E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7BDB0FE4E3460158685DA38741350C76</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBB3539EEEE4FE0C31C2D9A1160BCA5B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE44B2223940BA64E2EFC679AB3A06AF</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C3578DA2A65CF70887CA9F4FC8432459</string>
-			<key>remoteInfo</key>
-			<string>MD5</string>
-		</dict>
-		<key>EF450C49DDEE439B17F4232693DE9D61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MarvelObject.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F08289F7580738BD8BEB67D6F9147DA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>45EE9BC5EE5E85CA7ADDC1CE5A3F6BDE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F285756C95D4743D574826909183677A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Comic.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2C7DF9C3BBC8EBD2E56AA1880B944DA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>F586B2525A58C016ADC9E4138BCC8EB2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1BC6854E787A39AF13DF5FAE1543EFD9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F5FFBBAA8510C19C9BFAB770A80EA2FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>MarvelClient-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F64667F75298F336CDF2516030EC5B52</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9D05C7E25E4C5470363C0F0E00A1DF54</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-MarvelClient_Tests/Pods-MarvelClient_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_MarvelClient_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F9AE15F7FF07C65A7F27DD374AD9B9F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCDDFE555122ADAE261A532B0B852E61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-MarvelClient_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD884ED86545C2473978FB69848183E5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>267F44B81BC8C4348925FE7E98A7E9C0</string>
-			<key>remoteInfo</key>
-			<string>MarvelClient</string>
-		</dict>
-		<key>FDDBDDFEF8CE014812F06BAD22B59F3C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>NetworkReachabilityManager.swift</string>
-			<key>path</key>
-			<string>Source/NetworkReachabilityManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FE3025BB34CB03327E00BBAF87D2551B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Alamofire.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FEB922C5B3B7374D271F8B36A2D3D8BA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20CCEF6A0E8D1B339F1E5CFEDCDE67A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FF601040C1AF7C51370D0D5EAB81AA0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>MD5.swift</string>
-			<key>path</key>
-			<string>Sources/MD5.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFC3A369EE70C50B868526E6DF4635FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C8E7A9684806A4B420F15B63D4CFCE72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008A65A7F256C494FAF1876555299CDF /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285756C95D4743D574826909183677A /* Comic.swift */; };
+		0812B893C7ADA3A5D4785D96A5860D56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7DF9C3BBC8EBD2E56AA1880B944DA /* Foundation.framework */; };
+		0EBEF01363818C4F797137A528CAD190 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4428FD10F7C52259B35ADEE30353C152 /* IntExtension.swift */; };
+		10ED9459DAC4B97C30D326B7A62D84EA /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B19D29BEBDFC3E2F2DF1746AE5C4C7 /* Stream.swift */; };
+		15297CA3E2EC0834E744A56DA7A98F3E /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFC6507D3ACC15BEB566A04D550E664 /* Upload.swift */; };
+		26BE14D571D4537BF046BBC5A5CADF04 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C94A001D19E3C12DAE1C7121C3033A /* Validation.swift */; };
+		28BC371EF0A07F0DFF3B908BF7438365 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6FF3D7CEF87372EA276E573BE53013 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D265A6A03BB4B668F4B091662BF9F59 /* Pods-MarvelClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E8F317CFBB82AAEC41AD2AAEA2D17A /* Pods-MarvelClient_Tests-dummy.m */; };
+		33526F59977B3F585BA92ED2C0C5F59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7DF9C3BBC8EBD2E56AA1880B944DA /* Foundation.framework */; };
+		3F044C1300A238A596D93FDA93A75C85 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B911FDD13CD4D03E8556F7B2C84078F3 /* ParameterEncoding.swift */; };
+		41E7102F9B0A7EE1E0246F11149D785B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3025BB34CB03327E00BBAF87D2551B /* Alamofire.framework */; };
+		4316C69E4BC40C10AA612E69D00D0F7C /* MarvelRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536F6E8DFEC82808AF86E48A73ABF9A2 /* MarvelRequestBuilder.swift */; };
+		4EFEC43FFA220A43B3F1463A6869173A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06EBC8F6637D16B237E5AFF4261C2E7 /* MultipartFormData.swift */; };
+		539B3D38FF461E4C60A5D71D9A858A6E /* Pods-MarvelClient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FC71F519214547882A695DCA0A42B1 /* Pods-MarvelClient_Example-dummy.m */; };
+		548D6C8B4C4CFD6B47655CEFF2A3A9E4 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463DE96771419C2841DC772A47D65F9A /* Download.swift */; };
+		56203F73A864AED7718D4790D1B1672F /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF601040C1AF7C51370D0D5EAB81AA0E /* MD5.swift */; };
+		58C551096EFF558365B3190343DDE124 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525B51FB53DA30B11D2CB486CF31BAB /* StringUtils.swift */; };
+		661241FB9A9D3A7897CED3B7EF55CA5A /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577020A3F857A32F624331D52D82FB00 /* ServerTrustPolicy.swift */; };
+		67663B1B600C6A5BB9AC8FDFF5DDD5E6 /* MarvelClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF5E4EDC71891CF898F419FEF5CA48 /* MarvelClient.swift */; };
+		694511627EA5291CF9475C6173CD2281 /* MarvelClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C352F37B73B632C73F8F7243B2859094 /* MarvelClient-dummy.m */; };
+		6FDE39FC2DDDEC4C08D7B3A1797967B6 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1CB972CAB917E8BC6C77B63171B42 /* Response.swift */; };
+		724D37185829CCE4862A75D2B1D50C9A /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8810B5A2CCBC946FC1CABE7524A06A21 /* Generics.swift */; };
+		7321B7DBBCBD1A19AA9092E15C566A29 /* Pods-MarvelClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6199C97512D763B6BDD333F29F502A23 /* Pods-MarvelClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEDF7A870CBD20638407BCC85B7DB40 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068D52E734D1CA88E811AFDA7B53597 /* Error.swift */; };
+		887DF2CAA05E28CAA9C492498A4698D6 /* MarvelClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B11F2C4429C23D7EEF5C12BA89D9E60 /* MarvelClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E969DD7A0BFBFEE0895BB7BB200CE0E /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B3CD4ACA3DEE404AC20D8C255E5848 /* Hash.swift */; };
+		9EAD482F89F0919DC783DA7CCCAABB69 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444314C6339F04E70E805200B60C316 /* Manager.swift */; };
+		A0CF8E811CDD37A100F84D65 /* DictionaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF8E7F1CDD327E00F84D65 /* DictionaryUtils.swift */; };
+		A0CF8E841CDD3BDD00F84D65 /* CharacterRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF8E821CDD3BB500F84D65 /* CharacterRequestBuilder.swift */; };
+		A615227EE5DD3B43B42BB850F0D20F91 /* MD5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A90FF4AED14FEB55089C59EFB19B5 /* MD5-dummy.m */; };
+		A61FC3A892C6C1F4E1B58F348E4C83B3 /* MarvelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF450C49DDEE439B17F4232693DE9D61 /* MarvelObject.swift */; };
+		AD38D1B358FC4D7E622F309AF585C7DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7DF9C3BBC8EBD2E56AA1880B944DA /* Foundation.framework */; };
+		ADBD1F30AA50EBBEDCBEA00AC6C8E6F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCA6335FCCC765FBD5105D4865DFDAF /* Alamofire.swift */; };
+		AF21B1B00CC273460268052BFD66B1BA /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CE1610A9232918CEBEAB36BCD7E8A9 /* Request.swift */; };
+		B208D4AFAECEF73BB4F3236E0109DD4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7DF9C3BBC8EBD2E56AA1880B944DA /* Foundation.framework */; };
+		B658D51EA049BCE73A82A43E9E803D27 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A5CE27E6AB50746921D6CE604B4CD2 /* Timeline.swift */; };
+		B8E791F6A3A5940335C171993545A4AA /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904207A320FB72942C77D0FE6021AE5 /* ResponseSerialization.swift */; };
+		BD6CDFB5DB2E1411B005E16A6D2B1166 /* MD5-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B3ED3F99634777049C2F350DE403AE /* MD5-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B541DD2ADF520AC536EB0671882A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C7DF9C3BBC8EBD2E56AA1880B944DA /* Foundation.framework */; };
+		C8569E533B5EDD138EA2B9762ECE1714 /* Pods-MarvelClient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8176B4F71DB6345E533CC9E09A9D6676 /* Pods-MarvelClient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC01513B352A6F6F4BF2D74CCB00AE1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D437B0D9004378E91E8FFAE74207EC8E /* Result.swift */; };
+		DD41DC7D8516C6A850E9B5F26927C5E4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDBDDFEF8CE014812F06BAD22B59F3C /* NetworkReachabilityManager.swift */; };
+		DF7EA18F6FFEDEF48CB9695846099401 /* HashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DF3560134C1CEC8F886E64B5CE04E1 /* HashProtocol.swift */; };
+		E6B25DC63419D2653FCC0DA38F607C83 /* NSData+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDC0FF5E673C4AE30FA6C3B40442FBA /* NSData+Extension.swift */; };
+		E6C603F66D8D7C51ACD8D6131871845E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDB0FE4E3460158685DA38741350C76 /* Notifications.swift */; };
+		F08289F7580738BD8BEB67D6F9147DA4 /* MD5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EE9BC5EE5E85CA7ADDC1CE5A3F6BDE /* MD5.framework */; };
+		F586B2525A58C016ADC9E4138BCC8EB2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC6854E787A39AF13DF5FAE1543EFD9 /* Utils.swift */; };
+		FEB922C5B3B7374D271F8B36A2D3D8BA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CCEF6A0E8D1B339F1E5CFEDCDE67A5 /* Alamofire-dummy.m */; };
+		FFC3A369EE70C50B868526E6DF4635FB /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E7A9684806A4B420F15B63D4CFCE72 /* BytesSequence.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D009625BBC7077375A8F78753601D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3578DA2A65CF70887CA9F4FC8432459;
+			remoteInfo = MD5;
+		};
+		872E79B669D0D6639028E9E0A9662A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57733D0528E30AA10FD2647FF0713799;
+			remoteInfo = Alamofire;
+		};
+		97D10EBF66EEA6EC90A9777FACA70E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3578DA2A65CF70887CA9F4FC8432459;
+			remoteInfo = MD5;
+		};
+		988123E906B1FD2DA281CF13D4BF8912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57733D0528E30AA10FD2647FF0713799;
+			remoteInfo = Alamofire;
+		};
+		B4DBC1DC32E5CD6AFFEFE1BC568B2F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57733D0528E30AA10FD2647FF0713799;
+			remoteInfo = Alamofire;
+		};
+		DD493E27321D0F0A3EE90D4D26ED98A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267F44B81BC8C4348925FE7E98A7E9C0;
+			remoteInfo = MarvelClient;
+		};
+		EE44B2223940BA64E2EFC679AB3A06AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3578DA2A65CF70887CA9F4FC8432459;
+			remoteInfo = MD5;
+		};
+		FD884ED86545C2473978FB69848183E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 267F44B81BC8C4348925FE7E98A7E9C0;
+			remoteInfo = MarvelClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C2EFF16B83273B7FF55D21769F07DC /* Pods-MarvelClient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelClient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		04C94A001D19E3C12DAE1C7121C3033A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		136E55F3738B2123BBDE0D0AD4198A0E /* MD5.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MD5.modulemap; sourceTree = "<group>"; };
+		1A211CD881CE34D1104C67FAC5671DDA /* Pods-MarvelClient_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelClient_Example-resources.sh"; sourceTree = "<group>"; };
+		1BC6854E787A39AF13DF5FAE1543EFD9 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		20CCEF6A0E8D1B339F1E5CFEDCDE67A5 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		22BC5FC47A3CB215722B75DF5E4E1728 /* MarvelClient-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MarvelClient-Private.xcconfig"; sourceTree = "<group>"; };
+		29B7E793F0A1A9FDDC85ED57DEA5B0F1 /* Pods-MarvelClient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelClient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C25124EE60EEFA8F99F8876208A11F8 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		4428FD10F7C52259B35ADEE30353C152 /* IntExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtension.swift; path = Sources/IntExtension.swift; sourceTree = "<group>"; };
+		45EE9BC5EE5E85CA7ADDC1CE5A3F6BDE /* MD5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MD5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		463DE96771419C2841DC772A47D65F9A /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		536F6E8DFEC82808AF86E48A73ABF9A2 /* MarvelRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarvelRequestBuilder.swift; sourceTree = "<group>"; };
+		56B3ED3F99634777049C2F350DE403AE /* MD5-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MD5-umbrella.h"; sourceTree = "<group>"; };
+		577020A3F857A32F624331D52D82FB00 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		59B3CD4ACA3DEE404AC20D8C255E5848 /* Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hash.swift; path = Sources/Hash.swift; sourceTree = "<group>"; };
+		5D8A90FF4AED14FEB55089C59EFB19B5 /* MD5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MD5-dummy.m"; sourceTree = "<group>"; };
+		6199C97512D763B6BDD333F29F502A23 /* Pods-MarvelClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelClient_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6525B51FB53DA30B11D2CB486CF31BAB /* StringUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		653D63AD305A92C0B2E760671337900C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B11F2C4429C23D7EEF5C12BA89D9E60 /* MarvelClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarvelClient-umbrella.h"; sourceTree = "<group>"; };
+		6D9658400CD217EC5F1ED6DFB939980A /* Pods-MarvelClient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelClient_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6F9C6464F4A3839B5F39CDDF9A5FD945 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		6FF545724BA5C56BEF3A08DA46488631 /* Pods_MarvelClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelClient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71DF3560134C1CEC8F886E64B5CE04E1 /* HashProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HashProtocol.swift; path = Sources/HashProtocol.swift; sourceTree = "<group>"; };
+		73CE1610A9232918CEBEAB36BCD7E8A9 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		764BDA3B9901783B06E4A05CD0869243 /* Pods-MarvelClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		77004B08F3AAD68B897682E6C7CD7A8E /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		78B19D29BEBDFC3E2F2DF1746AE5C4C7 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		7BDB0FE4E3460158685DA38741350C76 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		7D206BE494104C859076E1C9121173A4 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8176B4F71DB6345E533CC9E09A9D6676 /* Pods-MarvelClient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelClient_Example-umbrella.h"; sourceTree = "<group>"; };
+		8810B5A2CCBC946FC1CABE7524A06A21 /* Generics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generics.swift; path = Sources/Generics.swift; sourceTree = "<group>"; };
+		8E6C5DC83A31D47E198FE124D784EA8D /* Pods_MarvelClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EF5E4EDC71891CF898F419FEF5CA48 /* MarvelClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarvelClient.swift; sourceTree = "<group>"; };
+		93D7E28B31A7191555ECCE61E072629E /* Pods-MarvelClient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelClient_Example-frameworks.sh"; sourceTree = "<group>"; };
+		973BA8AFFFD713B0DF4204165C85ED3D /* MD5-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MD5-Private.xcconfig"; sourceTree = "<group>"; };
+		9AC4AFC016315D205BDE577BDCE8961F /* MD5.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MD5.xcconfig; sourceTree = "<group>"; };
+		9BCA6335FCCC765FBD5105D4865DFDAF /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		9C312793C172E039B72A191EDA352253 /* Pods-MarvelClient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarvelClient_Example.modulemap"; sourceTree = "<group>"; };
+		9D05C7E25E4C5470363C0F0E00A1DF54 /* Pods-MarvelClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EFB6AEBE7358373EDA202302E579897 /* Pods-MarvelClient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelClient_Tests-resources.sh"; sourceTree = "<group>"; };
+		A0CF8E7F1CDD327E00F84D65 /* DictionaryUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryUtils.swift; sourceTree = "<group>"; };
+		A0CF8E821CDD3BB500F84D65 /* CharacterRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRequestBuilder.swift; sourceTree = "<group>"; };
+		A3BF885EC91FAB8D1A6BAB597437E219 /* MD5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MD5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E8F317CFBB82AAEC41AD2AAEA2D17A /* Pods-MarvelClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelClient_Tests-dummy.m"; sourceTree = "<group>"; };
+		A904207A320FB72942C77D0FE6021AE5 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		AFB9A2FE29A4D8000767282A2495C5C6 /* Pods-MarvelClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B068D52E734D1CA88E811AFDA7B53597 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		B06EBC8F6637D16B237E5AFF4261C2E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		B6E81D5772B7786EC639B7EC6E8FDB37 /* Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		B755AE20F31CCE68DD764C9066671C94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B911FDD13CD4D03E8556F7B2C84078F3 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		B9C37BE1D81EF8598F964FAF1B7C6A64 /* MD5-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MD5-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA6FF3D7CEF87372EA276E573BE53013 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		C28C7E57C70CEC0A7105DEE162D3E6C4 /* MarvelClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarvelClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C309F97F323D62C080E5AD9F7169A372 /* MarvelClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MarvelClient.modulemap; sourceTree = "<group>"; };
+		C352F37B73B632C73F8F7243B2859094 /* MarvelClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarvelClient-dummy.m"; sourceTree = "<group>"; };
+		C444314C6339F04E70E805200B60C316 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		C596B8C98D3E0BD6EA3AAD738708DD96 /* Pods-MarvelClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelClient_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8D42B6577B162F83DF251DCD16E0E8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E7A9684806A4B420F15B63D4CFCE72 /* BytesSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BytesSequence.swift; path = Sources/BytesSequence.swift; sourceTree = "<group>"; };
+		D437B0D9004378E91E8FFAE74207EC8E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		DAFC6507D3ACC15BEB566A04D550E664 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		DCA1CB972CAB917E8BC6C77B63171B42 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		DCDC0FF5E673C4AE30FA6C3B40442FBA /* NSData+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSData+Extension.swift"; path = "Sources/NSData+Extension.swift"; sourceTree = "<group>"; };
+		E05A9912FAB03A5CC7103E73B52E8B09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0892769DEEF3010879D215CA0B658A0 /* Pods-MarvelClient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MarvelClient_Tests.modulemap"; sourceTree = "<group>"; };
+		E0FC71F519214547882A695DCA0A42B1 /* Pods-MarvelClient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelClient_Example-dummy.m"; sourceTree = "<group>"; };
+		E3F8CCDF91516FB83143348507170CAD /* MarvelClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarvelClient.xcconfig; sourceTree = "<group>"; };
+		E4A5CE27E6AB50746921D6CE604B4CD2 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		EBB3539EEEE4FE0C31C2D9A1160BCA5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF450C49DDEE439B17F4232693DE9D61 /* MarvelObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarvelObject.swift; sourceTree = "<group>"; };
+		F285756C95D4743D574826909183677A /* Comic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		F2C7DF9C3BBC8EBD2E56AA1880B944DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F5FFBBAA8510C19C9BFAB770A80EA2FB /* MarvelClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarvelClient-prefix.pch"; sourceTree = "<group>"; };
+		F9AE15F7FF07C65A7F27DD374AD9B9F7 /* Pods-MarvelClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCDDFE555122ADAE261A532B0B852E61 /* Pods-MarvelClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDDBDDFEF8CE014812F06BAD22B59F3C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		FE3025BB34CB03327E00BBAF87D2551B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF601040C1AF7C51370D0D5EAB81AA0E /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = Sources/MD5.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47A9E614D81B61AFAB51D53D4DFDB400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD38D1B358FC4D7E622F309AF585C7DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DC5D92FB7B6F069C90C9184A4672EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B541DD2ADF520AC536EB0671882A31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5B85F7EC6E7F95CB0923C2DCC1DB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E7102F9B0A7EE1E0246F11149D785B /* Alamofire.framework in Frameworks */,
+				33526F59977B3F585BA92ED2C0C5F59C /* Foundation.framework in Frameworks */,
+				F08289F7580738BD8BEB67D6F9147DA4 /* MD5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27E71D19427BC3B3861DA27713D0EFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0812B893C7ADA3A5D4785D96A5860D56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7477CFC2A5E0902F09121E8D93FC108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B208D4AFAECEF73BB4F3236E0109DD4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013FEDB75089F1B0F6FA7477EA15B92B /* RequestBuilders */ = {
+			isa = PBXGroup;
+			children = (
+				536F6E8DFEC82808AF86E48A73ABF9A2 /* MarvelRequestBuilder.swift */,
+				A0CF8E821CDD3BB500F84D65 /* CharacterRequestBuilder.swift */,
+			);
+			path = RequestBuilders;
+			sourceTree = "<group>";
+		};
+		037EE7C36CC7BC3D0729B6F4BA1CC34F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B97951CE5A09DEEE1DC24485F0FE67C5 /* Pods-MarvelClient_Example */,
+				68E8F42DCA480AAFEF84E8FC24F232EF /* Pods-MarvelClient_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		041CFB24BFC1A1CCC4E300A3D9643461 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6525B51FB53DA30B11D2CB486CF31BAB /* StringUtils.swift */,
+				A0CF8E7F1CDD327E00F84D65 /* DictionaryUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		06C63F5FE0C4233D8124C2101EC4F011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9776686FA069DC27C806F0738DEA9976 /* Alamofire */,
+				DA57B06C4784B06215B434C4A3B9DF88 /* MD5 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1657CCC68EAB3BE530DA84BFC35E403B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B9217BD5F1FBCD87443D520A8749E5E /* MarvelClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1B9217BD5F1FBCD87443D520A8749E5E /* MarvelClient */ = {
+			isa = PBXGroup;
+			children = (
+				80C2B4FEA88E57143CEC3D2E64E79771 /* MarvelClient */,
+				7B43D44947D4E7E2CCF172CE611A3BD7 /* Support Files */,
+			);
+			name = MarvelClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		68E8F42DCA480AAFEF84E8FC24F232EF /* Pods-MarvelClient_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E05A9912FAB03A5CC7103E73B52E8B09 /* Info.plist */,
+				E0892769DEEF3010879D215CA0B658A0 /* Pods-MarvelClient_Tests.modulemap */,
+				F9AE15F7FF07C65A7F27DD374AD9B9F7 /* Pods-MarvelClient_Tests-acknowledgements.markdown */,
+				FCDDFE555122ADAE261A532B0B852E61 /* Pods-MarvelClient_Tests-acknowledgements.plist */,
+				A7E8F317CFBB82AAEC41AD2AAEA2D17A /* Pods-MarvelClient_Tests-dummy.m */,
+				6D9658400CD217EC5F1ED6DFB939980A /* Pods-MarvelClient_Tests-frameworks.sh */,
+				9EFB6AEBE7358373EDA202302E579897 /* Pods-MarvelClient_Tests-resources.sh */,
+				6199C97512D763B6BDD333F29F502A23 /* Pods-MarvelClient_Tests-umbrella.h */,
+				9D05C7E25E4C5470363C0F0E00A1DF54 /* Pods-MarvelClient_Tests.debug.xcconfig */,
+				AFB9A2FE29A4D8000767282A2495C5C6 /* Pods-MarvelClient_Tests.release.xcconfig */,
+			);
+			name = "Pods-MarvelClient_Tests";
+			path = "Target Support Files/Pods-MarvelClient_Tests";
+			sourceTree = "<group>";
+		};
+		7B43D44947D4E7E2CCF172CE611A3BD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D42B6577B162F83DF251DCD16E0E8D /* Info.plist */,
+				C309F97F323D62C080E5AD9F7169A372 /* MarvelClient.modulemap */,
+				E3F8CCDF91516FB83143348507170CAD /* MarvelClient.xcconfig */,
+				22BC5FC47A3CB215722B75DF5E4E1728 /* MarvelClient-Private.xcconfig */,
+				C352F37B73B632C73F8F7243B2859094 /* MarvelClient-dummy.m */,
+				F5FFBBAA8510C19C9BFAB770A80EA2FB /* MarvelClient-prefix.pch */,
+				6B11F2C4429C23D7EEF5C12BA89D9E60 /* MarvelClient-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MarvelClient";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				1657CCC68EAB3BE530DA84BFC35E403B /* Development Pods */,
+				C8146AB8A635DB755E3ACBA3A5841ED8 /* Frameworks */,
+				06C63F5FE0C4233D8124C2101EC4F011 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				037EE7C36CC7BC3D0729B6F4BA1CC34F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C2B4FEA88E57143CEC3D2E64E79771 /* MarvelClient */ = {
+			isa = PBXGroup;
+			children = (
+				B01AD6D69D321478242B60053C2A1F50 /* Classes */,
+			);
+			path = MarvelClient;
+			sourceTree = "<group>";
+		};
+		8D7C70632FE22FC195672171ABD8CC46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C6464F4A3839B5F39CDDF9A5FD945 /* Alamofire.modulemap */,
+				3C25124EE60EEFA8F99F8876208A11F8 /* Alamofire.xcconfig */,
+				B6E81D5772B7786EC639B7EC6E8FDB37 /* Alamofire-Private.xcconfig */,
+				20CCEF6A0E8D1B339F1E5CFEDCDE67A5 /* Alamofire-dummy.m */,
+				77004B08F3AAD68B897682E6C7CD7A8E /* Alamofire-prefix.pch */,
+				BA6FF3D7CEF87372EA276E573BE53013 /* Alamofire-umbrella.h */,
+				EBB3539EEEE4FE0C31C2D9A1160BCA5B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		9776686FA069DC27C806F0738DEA9976 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA6335FCCC765FBD5105D4865DFDAF /* Alamofire.swift */,
+				463DE96771419C2841DC772A47D65F9A /* Download.swift */,
+				B068D52E734D1CA88E811AFDA7B53597 /* Error.swift */,
+				C444314C6339F04E70E805200B60C316 /* Manager.swift */,
+				B06EBC8F6637D16B237E5AFF4261C2E7 /* MultipartFormData.swift */,
+				FDDBDDFEF8CE014812F06BAD22B59F3C /* NetworkReachabilityManager.swift */,
+				7BDB0FE4E3460158685DA38741350C76 /* Notifications.swift */,
+				B911FDD13CD4D03E8556F7B2C84078F3 /* ParameterEncoding.swift */,
+				73CE1610A9232918CEBEAB36BCD7E8A9 /* Request.swift */,
+				DCA1CB972CAB917E8BC6C77B63171B42 /* Response.swift */,
+				A904207A320FB72942C77D0FE6021AE5 /* ResponseSerialization.swift */,
+				D437B0D9004378E91E8FFAE74207EC8E /* Result.swift */,
+				577020A3F857A32F624331D52D82FB00 /* ServerTrustPolicy.swift */,
+				78B19D29BEBDFC3E2F2DF1746AE5C4C7 /* Stream.swift */,
+				E4A5CE27E6AB50746921D6CE604B4CD2 /* Timeline.swift */,
+				DAFC6507D3ACC15BEB566A04D550E664 /* Upload.swift */,
+				04C94A001D19E3C12DAE1C7121C3033A /* Validation.swift */,
+				8D7C70632FE22FC195672171ABD8CC46 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		989C2FD39E16FEA3241D3EAFAF505FDB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2C7DF9C3BBC8EBD2E56AA1880B944DA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ADB4CC34FC9CCC0D4D0B2B48C59133A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B755AE20F31CCE68DD764C9066671C94 /* Info.plist */,
+				136E55F3738B2123BBDE0D0AD4198A0E /* MD5.modulemap */,
+				9AC4AFC016315D205BDE577BDCE8961F /* MD5.xcconfig */,
+				973BA8AFFFD713B0DF4204165C85ED3D /* MD5-Private.xcconfig */,
+				5D8A90FF4AED14FEB55089C59EFB19B5 /* MD5-dummy.m */,
+				B9C37BE1D81EF8598F964FAF1B7C6A64 /* MD5-prefix.pch */,
+				56B3ED3F99634777049C2F350DE403AE /* MD5-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MD5";
+			sourceTree = "<group>";
+		};
+		B01AD6D69D321478242B60053C2A1F50 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90EF5E4EDC71891CF898F419FEF5CA48 /* MarvelClient.swift */,
+				DE0E19438152C4FCB7FECAFB6819C0D5 /* Entities */,
+				013FEDB75089F1B0F6FA7477EA15B92B /* RequestBuilders */,
+				041CFB24BFC1A1CCC4E300A3D9643461 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B97951CE5A09DEEE1DC24485F0FE67C5 /* Pods-MarvelClient_Example */ = {
+			isa = PBXGroup;
+			children = (
+				653D63AD305A92C0B2E760671337900C /* Info.plist */,
+				9C312793C172E039B72A191EDA352253 /* Pods-MarvelClient_Example.modulemap */,
+				29B7E793F0A1A9FDDC85ED57DEA5B0F1 /* Pods-MarvelClient_Example-acknowledgements.markdown */,
+				02C2EFF16B83273B7FF55D21769F07DC /* Pods-MarvelClient_Example-acknowledgements.plist */,
+				E0FC71F519214547882A695DCA0A42B1 /* Pods-MarvelClient_Example-dummy.m */,
+				93D7E28B31A7191555ECCE61E072629E /* Pods-MarvelClient_Example-frameworks.sh */,
+				1A211CD881CE34D1104C67FAC5671DDA /* Pods-MarvelClient_Example-resources.sh */,
+				8176B4F71DB6345E533CC9E09A9D6676 /* Pods-MarvelClient_Example-umbrella.h */,
+				764BDA3B9901783B06E4A05CD0869243 /* Pods-MarvelClient_Example.debug.xcconfig */,
+				C596B8C98D3E0BD6EA3AAD738708DD96 /* Pods-MarvelClient_Example.release.xcconfig */,
+			);
+			name = "Pods-MarvelClient_Example";
+			path = "Target Support Files/Pods-MarvelClient_Example";
+			sourceTree = "<group>";
+		};
+		C8146AB8A635DB755E3ACBA3A5841ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3025BB34CB03327E00BBAF87D2551B /* Alamofire.framework */,
+				45EE9BC5EE5E85CA7ADDC1CE5A3F6BDE /* MD5.framework */,
+				989C2FD39E16FEA3241D3EAFAF505FDB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D206BE494104C859076E1C9121173A4 /* Alamofire.framework */,
+				A3BF885EC91FAB8D1A6BAB597437E219 /* MD5.framework */,
+				C28C7E57C70CEC0A7105DEE162D3E6C4 /* MarvelClient.framework */,
+				6FF545724BA5C56BEF3A08DA46488631 /* Pods_MarvelClient_Example.framework */,
+				8E6C5DC83A31D47E198FE124D784EA8D /* Pods_MarvelClient_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA57B06C4784B06215B434C4A3B9DF88 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				C8E7A9684806A4B420F15B63D4CFCE72 /* BytesSequence.swift */,
+				8810B5A2CCBC946FC1CABE7524A06A21 /* Generics.swift */,
+				59B3CD4ACA3DEE404AC20D8C255E5848 /* Hash.swift */,
+				71DF3560134C1CEC8F886E64B5CE04E1 /* HashProtocol.swift */,
+				4428FD10F7C52259B35ADEE30353C152 /* IntExtension.swift */,
+				FF601040C1AF7C51370D0D5EAB81AA0E /* MD5.swift */,
+				DCDC0FF5E673C4AE30FA6C3B40442FBA /* NSData+Extension.swift */,
+				1BC6854E787A39AF13DF5FAE1543EFD9 /* Utils.swift */,
+				ADB4CC34FC9CCC0D4D0B2B48C59133A6 /* Support Files */,
+			);
+			path = MD5;
+			sourceTree = "<group>";
+		};
+		DE0E19438152C4FCB7FECAFB6819C0D5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F285756C95D4743D574826909183677A /* Comic.swift */,
+				EF450C49DDEE439B17F4232693DE9D61 /* MarvelObject.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B83655A00449DA5273A2FB2F75B1900 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BC371EF0A07F0DFF3B908BF7438365 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E95B511BC372D2FD265ADB8DA7B47B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7321B7DBBCBD1A19AA9092E15C566A29 /* Pods-MarvelClient_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB90AF8C17D3F19BFEDA2FE680F74F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8569E533B5EDD138EA2B9762ECE1714 /* Pods-MarvelClient_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E058D9E685742F29785B65EB3B2F3DD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6CDFB5DB2E1411B005E16A6D2B1166 /* MD5-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5597478867BBAA5226A402199722CCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887DF2CAA05E28CAA9C492498A4698D6 /* MarvelClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2435A3F9FB3E5A647F1A12A826075D3C /* Pods-MarvelClient_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C02AA2A7CA0AE1B73A67309D9267929 /* Build configuration list for PBXNativeTarget "Pods-MarvelClient_Tests" */;
+			buildPhases = (
+				3F33049B98C7614341D9FAF69B6A5150 /* Sources */,
+				86DC5D92FB7B6F069C90C9184A4672EE /* Frameworks */,
+				8E95B511BC372D2FD265ADB8DA7B47B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B1EB7F2A15B7F4E5B1B51D703D4F3F /* PBXTargetDependency */,
+				19A9BD26A42FBCBF5E44EA4CEDCACFF3 /* PBXTargetDependency */,
+				5EC0AA5FD7D2962DD57B25CD69FC6B59 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarvelClient_Tests";
+			productName = "Pods-MarvelClient_Tests";
+			productReference = 8E6C5DC83A31D47E198FE124D784EA8D /* Pods_MarvelClient_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		267F44B81BC8C4348925FE7E98A7E9C0 /* MarvelClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2637B1F36485B084210A028682CE53E /* Build configuration list for PBXNativeTarget "MarvelClient" */;
+			buildPhases = (
+				C39984C3A37304274CF3644A85860479 /* Sources */,
+				AF5B85F7EC6E7F95CB0923C2DCC1DB6E /* Frameworks */,
+				E5597478867BBAA5226A402199722CCB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F1C95B00FB8B8BF35B9D7816F98B1D /* PBXTargetDependency */,
+				76840BF5E70FE654536E7C1017936CEB /* PBXTargetDependency */,
+			);
+			name = MarvelClient;
+			productName = MarvelClient;
+			productReference = C28C7E57C70CEC0A7105DEE162D3E6C4 /* MarvelClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57733D0528E30AA10FD2647FF0713799 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8026C4AFDF9B016267E494DA93FDF3BF /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				4DF4E827A1D2D42C1578386A85CF8D86 /* Sources */,
+				C7477CFC2A5E0902F09121E8D93FC108 /* Frameworks */,
+				0B83655A00449DA5273A2FB2F75B1900 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 7D206BE494104C859076E1C9121173A4 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F05DABC15FF01D67A595CD2902F72F4 /* Pods-MarvelClient_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CC8B40E5D29595471AB89A7AE95526 /* Build configuration list for PBXNativeTarget "Pods-MarvelClient_Example" */;
+			buildPhases = (
+				14E7DFDFBBB232ABAECCEEF583F66287 /* Sources */,
+				47A9E614D81B61AFAB51D53D4DFDB400 /* Frameworks */,
+				BCB90AF8C17D3F19BFEDA2FE680F74F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1CFFAF789E7541DEE4D2A6493AE76C5 /* PBXTargetDependency */,
+				444C8033AABD0AD1460A0D4CDD1AD30B /* PBXTargetDependency */,
+				0338941D32301F1B661947C142B458D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarvelClient_Example";
+			productName = "Pods-MarvelClient_Example";
+			productReference = 6FF545724BA5C56BEF3A08DA46488631 /* Pods_MarvelClient_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3578DA2A65CF70887CA9F4FC8432459 /* MD5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366AB9873198473E0E04D88243981520 /* Build configuration list for PBXNativeTarget "MD5" */;
+			buildPhases = (
+				38CF1E97EB044163DC62CF3BEC586921 /* Sources */,
+				C27E71D19427BC3B3861DA27713D0EFF /* Frameworks */,
+				E058D9E685742F29785B65EB3B2F3DD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MD5;
+			productName = MD5;
+			productReference = A3BF885EC91FAB8D1A6BAB597437E219 /* MD5.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57733D0528E30AA10FD2647FF0713799 /* Alamofire */,
+				C3578DA2A65CF70887CA9F4FC8432459 /* MD5 */,
+				267F44B81BC8C4348925FE7E98A7E9C0 /* MarvelClient */,
+				5F05DABC15FF01D67A595CD2902F72F4 /* Pods-MarvelClient_Example */,
+				2435A3F9FB3E5A647F1A12A826075D3C /* Pods-MarvelClient_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E7DFDFBBB232ABAECCEEF583F66287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539B3D38FF461E4C60A5D71D9A858A6E /* Pods-MarvelClient_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38CF1E97EB044163DC62CF3BEC586921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC3A369EE70C50B868526E6DF4635FB /* BytesSequence.swift in Sources */,
+				724D37185829CCE4862A75D2B1D50C9A /* Generics.swift in Sources */,
+				8E969DD7A0BFBFEE0895BB7BB200CE0E /* Hash.swift in Sources */,
+				DF7EA18F6FFEDEF48CB9695846099401 /* HashProtocol.swift in Sources */,
+				0EBEF01363818C4F797137A528CAD190 /* IntExtension.swift in Sources */,
+				A615227EE5DD3B43B42BB850F0D20F91 /* MD5-dummy.m in Sources */,
+				56203F73A864AED7718D4790D1B1672F /* MD5.swift in Sources */,
+				E6B25DC63419D2653FCC0DA38F607C83 /* NSData+Extension.swift in Sources */,
+				F586B2525A58C016ADC9E4138BCC8EB2 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F33049B98C7614341D9FAF69B6A5150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D265A6A03BB4B668F4B091662BF9F59 /* Pods-MarvelClient_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DF4E827A1D2D42C1578386A85CF8D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB922C5B3B7374D271F8B36A2D3D8BA /* Alamofire-dummy.m in Sources */,
+				ADBD1F30AA50EBBEDCBEA00AC6C8E6F5 /* Alamofire.swift in Sources */,
+				548D6C8B4C4CFD6B47655CEFF2A3A9E4 /* Download.swift in Sources */,
+				7BEDF7A870CBD20638407BCC85B7DB40 /* Error.swift in Sources */,
+				9EAD482F89F0919DC783DA7CCCAABB69 /* Manager.swift in Sources */,
+				4EFEC43FFA220A43B3F1463A6869173A /* MultipartFormData.swift in Sources */,
+				DD41DC7D8516C6A850E9B5F26927C5E4 /* NetworkReachabilityManager.swift in Sources */,
+				E6C603F66D8D7C51ACD8D6131871845E /* Notifications.swift in Sources */,
+				3F044C1300A238A596D93FDA93A75C85 /* ParameterEncoding.swift in Sources */,
+				AF21B1B00CC273460268052BFD66B1BA /* Request.swift in Sources */,
+				6FDE39FC2DDDEC4C08D7B3A1797967B6 /* Response.swift in Sources */,
+				B8E791F6A3A5940335C171993545A4AA /* ResponseSerialization.swift in Sources */,
+				DBC01513B352A6F6F4BF2D74CCB00AE1 /* Result.swift in Sources */,
+				661241FB9A9D3A7897CED3B7EF55CA5A /* ServerTrustPolicy.swift in Sources */,
+				10ED9459DAC4B97C30D326B7A62D84EA /* Stream.swift in Sources */,
+				B658D51EA049BCE73A82A43E9E803D27 /* Timeline.swift in Sources */,
+				15297CA3E2EC0834E744A56DA7A98F3E /* Upload.swift in Sources */,
+				26BE14D571D4537BF046BBC5A5CADF04 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39984C3A37304274CF3644A85860479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CF8E811CDD37A100F84D65 /* DictionaryUtils.swift in Sources */,
+				008A65A7F256C494FAF1876555299CDF /* Comic.swift in Sources */,
+				694511627EA5291CF9475C6173CD2281 /* MarvelClient-dummy.m in Sources */,
+				67663B1B600C6A5BB9AC8FDFF5DDD5E6 /* MarvelClient.swift in Sources */,
+				A61FC3A892C6C1F4E1B58F348E4C83B3 /* MarvelObject.swift in Sources */,
+				A0CF8E841CDD3BDD00F84D65 /* CharacterRequestBuilder.swift in Sources */,
+				4316C69E4BC40C10AA612E69D00D0F7C /* MarvelRequestBuilder.swift in Sources */,
+				58C551096EFF558365B3190343DDE124 /* StringUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0338941D32301F1B661947C142B458D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarvelClient;
+			target = 267F44B81BC8C4348925FE7E98A7E9C0 /* MarvelClient */;
+			targetProxy = FD884ED86545C2473978FB69848183E5 /* PBXContainerItemProxy */;
+		};
+		03F1C95B00FB8B8BF35B9D7816F98B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 57733D0528E30AA10FD2647FF0713799 /* Alamofire */;
+			targetProxy = 988123E906B1FD2DA281CF13D4BF8912 /* PBXContainerItemProxy */;
+		};
+		19A9BD26A42FBCBF5E44EA4CEDCACFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MD5;
+			target = C3578DA2A65CF70887CA9F4FC8432459 /* MD5 */;
+			targetProxy = 5D009625BBC7077375A8F78753601D72 /* PBXContainerItemProxy */;
+		};
+		23B1EB7F2A15B7F4E5B1B51D703D4F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 57733D0528E30AA10FD2647FF0713799 /* Alamofire */;
+			targetProxy = B4DBC1DC32E5CD6AFFEFE1BC568B2F69 /* PBXContainerItemProxy */;
+		};
+		444C8033AABD0AD1460A0D4CDD1AD30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MD5;
+			target = C3578DA2A65CF70887CA9F4FC8432459 /* MD5 */;
+			targetProxy = EE44B2223940BA64E2EFC679AB3A06AF /* PBXContainerItemProxy */;
+		};
+		5EC0AA5FD7D2962DD57B25CD69FC6B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarvelClient;
+			target = 267F44B81BC8C4348925FE7E98A7E9C0 /* MarvelClient */;
+			targetProxy = DD493E27321D0F0A3EE90D4D26ED98A3 /* PBXContainerItemProxy */;
+		};
+		76840BF5E70FE654536E7C1017936CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MD5;
+			target = C3578DA2A65CF70887CA9F4FC8432459 /* MD5 */;
+			targetProxy = 97D10EBF66EEA6EC90A9777FACA70E3B /* PBXContainerItemProxy */;
+		};
+		D1CFFAF789E7541DEE4D2A6493AE76C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 57733D0528E30AA10FD2647FF0713799 /* Alamofire */;
+			targetProxy = 872E79B669D0D6639028E9E0A9662A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0225BEE7A3F3B6EB280F1909798A314F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E81D5772B7786EC639B7EC6E8FDB37 /* Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.3.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1485B4DF016D6697A99C26FEDE0E8C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC5FC47A3CB215722B75DF5E4E1728 /* MarvelClient-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarvelClient/MarvelClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarvelClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarvelClient/MarvelClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MarvelClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E1523FEE3B1A633FD8B4E4A69D7A7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB9A2FE29A4D8000767282A2495C5C6 /* Pods-MarvelClient_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelClient_Tests/Pods-MarvelClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MarvelClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67CF135ECA76E75887DA470FD2DC140F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973BA8AFFFD713B0DF4204165C85ED3D /* MD5-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MD5/MD5-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MD5/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MD5/MD5.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MD5;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74D578D64C76FD89C201127E81F53F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973BA8AFFFD713B0DF4204165C85ED3D /* MD5-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MD5/MD5-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MD5/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MD5/MD5.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MD5;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9AAB9970C94E088AEE94A178C133A88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764BDA3B9901783B06E4A05CD0869243 /* Pods-MarvelClient_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelClient_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelClient_Example/Pods-MarvelClient_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MarvelClient_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D9F7647452DE1761038A0C5363D7EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BC5FC47A3CB215722B75DF5E4E1728 /* MarvelClient-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MarvelClient/MarvelClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarvelClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MarvelClient/MarvelClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MarvelClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B04AE1161F175D045A3035E342157321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C596B8C98D3E0BD6EA3AAD738708DD96 /* Pods-MarvelClient_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelClient_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelClient_Example/Pods-MarvelClient_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MarvelClient_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D053311C2675589D2BB1EDF064DB8C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E81D5772B7786EC639B7EC6E8FDB37 /* Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.3.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F64667F75298F336CDF2516030EC5B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D05C7E25E4C5470363C0F0E00A1DF54 /* Pods-MarvelClient_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelClient_Tests/Pods-MarvelClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MarvelClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C02AA2A7CA0AE1B73A67309D9267929 /* Build configuration list for PBXNativeTarget "Pods-MarvelClient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64667F75298F336CDF2516030EC5B52 /* Debug */,
+				5E1523FEE3B1A633FD8B4E4A69D7A7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CC8B40E5D29595471AB89A7AE95526 /* Build configuration list for PBXNativeTarget "Pods-MarvelClient_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AAB9970C94E088AEE94A178C133A88F /* Debug */,
+				B04AE1161F175D045A3035E342157321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366AB9873198473E0E04D88243981520 /* Build configuration list for PBXNativeTarget "MD5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D578D64C76FD89C201127E81F53F67 /* Debug */,
+				67CF135ECA76E75887DA470FD2DC140F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8026C4AFDF9B016267E494DA93FDF3BF /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D053311C2675589D2BB1EDF064DB8C8D /* Debug */,
+				0225BEE7A3F3B6EB280F1909798A314F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2637B1F36485B084210A028682CE53E /* Build configuration list for PBXNativeTarget "MarvelClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9F7647452DE1761038A0C5363D7EE1 /* Debug */,
+				1485B4DF016D6697A99C26FEDE0E8C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

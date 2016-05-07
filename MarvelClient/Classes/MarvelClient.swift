@@ -10,11 +10,16 @@ import Foundation
 import Alamofire
 
 public class MarvelClient {
-  private let requestBuilder: MarvelRequestBuilder
   
-  init(privateKey: String, publicKey: String) {
-    self.requestBuilder = MarvelRequestBuilder(privateKey: privateKey, publicKey: publicKey)
+  let privateKey: String
+  let publicKey: String
+  
+  public init(privateKey: String, publicKey: String) {
+    self.privateKey = privateKey
+    self.publicKey = publicKey
   }
   
-
+  public func requestCharacters() -> CharacterRequestBuilder {
+    return CharacterRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+  }
 }
