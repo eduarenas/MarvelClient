@@ -26,7 +26,7 @@ public struct Character: Entity {
   public init(json: JSON) {
     self.id = json["id"].int!
     self.name = json["name"].string!
-    self.description = json["name"].string!
+    self.description = json["description"].string!
     self.modified = json["modified"].date!
     self.resourceURI = json["resourceURI"].string!
     self.urls = json["urls"].array!.map { Url(json: $0) }

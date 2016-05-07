@@ -18,10 +18,10 @@ public class MarvelRequestBuilder {
   private let privateKey: String
   private let publicKey: String
   
-  let entityType: String
-  var resultsFilter: MarvelResultsFilter?
-  var resultsLimit: Int?
-  var resultsOffset: Int?
+  public let entityType: String
+  public var resultsFilter: MarvelResultsFilter?
+  public var resultsLimit: Int?
+  public var resultsOffset: Int?
   
   var request: Request {
     return Alamofire.request(.GET, self.url, parameters: self.parameters, encoding: .URL)
@@ -74,16 +74,7 @@ public class MarvelRequestBuilder {
     }
   }
   
-  private func buildAuthenticationParameters() -> [String: String] {
-    let timestamp = NSDate().timeIntervalSince1970
-    let requestHash = "\(timestamp)\(self.privateKey)\(self.publicKey)".md5Hash
-    return ["ts": "\(timestamp)",
-            "apikey": self.publicKey,
-            "hash": requestHash]
-    
-  }
-  
-  private func buildQueryParameters() -> [String: String] {
+  func buildQueryParameters() -> [String: String] {
     var queryParameters = [String: String]()
     
     if let limit = self.resultsLimit {
@@ -94,5 +85,14 @@ public class MarvelRequestBuilder {
     }
     
     return queryParameters
+  }
+  
+  private func buildAuthenticationParameters() -> [String: String] {
+    let timestamp = NSDate().timeIntervalSince1970
+    let requestHash = "\(timestamp)\(self.privateKey)\(self.publicKey)".md5Hash
+    return ["ts": "\(timestamp)",
+            "apikey": self.publicKey,
+            "hash": requestHash]
+    
   }
 }

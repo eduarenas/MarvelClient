@@ -7,6 +7,11 @@
 //
 
 import Foundation
+import SwiftyJSON
+
+public protocol JSONSerializable {
+  init(json: JSON)
+}
 
 public protocol Entity: JSONSerializable {
   
