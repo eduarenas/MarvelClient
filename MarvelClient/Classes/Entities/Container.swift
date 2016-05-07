@@ -9,14 +9,15 @@
 import Foundation
 import SwiftyJSON
 
-class Container<T: JSONSerializable>: JSONSerializable {
-  let offset: Int
-  let limit: Int
-  let total: Int
-  let count: Int
-  let results: [T]
+public struct Container<T: JSONSerializable>: JSONSerializable {
   
-  required init(json: JSON) {
+  public let offset: Int
+  public let limit: Int
+  public let total: Int
+  public let count: Int
+  public let results: [T]
+  
+  public init(json: JSON) {
     self.offset = json["offset"].int!
     self.limit = json["limit"].int!
     self.total = json["total"].int!

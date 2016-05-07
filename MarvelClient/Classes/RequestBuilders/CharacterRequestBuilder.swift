@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SwiftyJSON
 
 public class CharacterRequestBuilder: MarvelRequestBuilder {
   
@@ -17,18 +16,7 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
     super.init(entityType: self.entityTypeString, privateKey: privateKey, publicKey: publicKey)
   }
 
-  public func fetch() {
-    self.request.responseJSON { (response) in
-      switch response.result {
-      case .Success:
-        if let value = response.result.value {
-          let json = JSON(value)
-          let result = Wrapper<Character>(json: json)
-          print(result)
-        }
-      case .Failure(let error):
-        print(error)
-      }
-    }
+  public func fetch(completionHandler: Wrapper<Character> -> Void) {
+    super.fetchResults(completionHandler)
   }
 }

@@ -9,6 +9,6 @@
 import Foundation
 import SwiftyJSON
 
-protocol JSONSerializable {
+public protocol JSONSerializable {
   init(json: JSON)
 }

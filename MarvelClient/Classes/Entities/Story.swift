@@ -9,20 +9,20 @@
 import Foundation
 import SwiftyJSON
 
-struct Story: Entity {
+public struct Story: Entity {
   
-  init(json: JSON) {
+  public init(json: JSON) {
     
   }
 }
 
-struct StorySummary: EntitySummary {
+public struct StorySummary: EntitySummary {
   
-  let resourceURI: String
-  let name: String
-  let type: String
+  public let resourceURI: String
+  public let name: String
+  public let type: String
   
-  init(json: JSON) {
+  public init(json: JSON) {
     self.resourceURI = json["resourceURI"].string!
     self.name = json["name"].string!
     self.type = json["type"].string!

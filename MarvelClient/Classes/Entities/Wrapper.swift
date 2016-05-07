@@ -9,16 +9,17 @@
 import Foundation
 import SwiftyJSON
 
-struct Wrapper<T: JSONSerializable>: JSONSerializable {
-  let code: Int
-  let status: String
-  let data: Container<T>
-  let etag: String
-  let copyright: String
-  let attributionText: String
-  let attributionHTML: String
+public struct Wrapper<T: Entity>: JSONSerializable {
   
-  init(json: JSON) {
+  public let code: Int
+  public let status: String
+  public let data: Container<T>
+  public let etag: String
+  public let copyright: String
+  public let attributionText: String
+  public let attributionHTML: String
+  
+  public init(json: JSON) {
     self.code = json["code"].int!
     self.status = json["status"].string!
     self.data = Container<T>(json: json["data"])

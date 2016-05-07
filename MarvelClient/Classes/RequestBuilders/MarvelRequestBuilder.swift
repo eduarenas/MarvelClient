@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
 
 public typealias MarvelResultsFilter = (entityTipe: String, id: String)
 
@@ -57,6 +58,20 @@ public class MarvelRequestBuilder {
   public func offset(resultsOffset: Int) -> Self {
     self.resultsOffset = resultsOffset
     return self
+  }
+  
+  func fetchResults<T: Entity>(completionHandler: Wrapper<T> -> Void) {
+    self.request.responseJSON { (response) in
+      switch response.result {
+      case .Success:
+        if let value = response.result.value {
+          let result = Wrapper<T>(json: JSON(value))
+          completionHandler(result)
+        }
+      case .Failure(let error):
+        print(error)
+      }
+    }
   }
   
   private func buildAuthenticationParameters() -> [String: String] {

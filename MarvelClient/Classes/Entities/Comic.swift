@@ -9,19 +9,19 @@
 import Foundation
 import SwiftyJSON
 
-struct Comic: Entity {
+public struct Comic: Entity {
 
-  init(json: JSON) {
+  public init(json: JSON) {
     
   }
 }
 
-struct ComicSummary: EntitySummary {
+public struct ComicSummary: EntitySummary {
   
-  let resourceURI: String
-  let name: String
+  public let resourceURI: String
+  public let name: String
   
-  init(json: JSON) {
+  public init(json: JSON) {
     self.resourceURI = json["resourceURI"].string!
     self.name = json["name"].string!
   }

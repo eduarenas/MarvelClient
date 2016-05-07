@@ -9,12 +9,12 @@
 import Foundation
 import SwiftyJSON
 
-struct Url: JSONSerializable {
+public struct Url: JSONSerializable {
   
-  let type: String
-  let url: String
+  public let type: String
+  public let url: String
   
-  init(json: JSON) {
+  public init(json: JSON) {
     self.type = json["type"].string!
     self.url = json["url"].string!
   }

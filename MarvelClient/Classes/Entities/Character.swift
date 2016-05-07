@@ -11,19 +11,19 @@ import SwiftyJSON
 
 public struct Character: Entity {
   
-  let id: Int
-  let name: String
-  let description: String
-  let modified: NSDate
-  let resourceURI: String
-  let urls: [Url]
-  let thumbnail: Image
-  let comics: ResourceList<ComicSummary>
-  let stories: ResourceList<StorySummary>
-  let events: ResourceList<EventSummary>
-  let series: ResourceList<SeriesSummary>
+  public let id: Int
+  public let name: String
+  public let description: String
+  public let modified: NSDate
+  public let resourceURI: String
+  public let urls: [Url]
+  public let thumbnail: Image
+  public let comics: ResourceList<ComicSummary>
+  public let stories: ResourceList<StorySummary>
+  public let events: ResourceList<EventSummary>
+  public let series: ResourceList<SeriesSummary>
   
-  init(json: JSON) {
+  public init(json: JSON) {
     self.id = json["id"].int!
     self.name = json["name"].string!
     self.description = json["name"].string!
@@ -40,11 +40,11 @@ public struct Character: Entity {
 
 public struct CharacterSummary: EntitySummary {
   
-  let resourceURI: String
-  let name: String
-  let role: String
+  public let resourceURI: String
+  public let name: String
+  public let role: String
   
-  init(json: JSON) {
+  public init(json: JSON) {
     self.resourceURI = json["resourceURI"].string!
     self.name = json["name"].string!
     self.role = json["role"].string!

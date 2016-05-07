@@ -9,12 +9,12 @@
 import Foundation
 import SwiftyJSON
 
-struct Image: JSONSerializable {
+public struct Image: JSONSerializable {
   
-  let path: String
-  let imageExtension: String
+  public let path: String
+  public let imageExtension: String
   
-  init(json: JSON) {
+  public init(json: JSON) {
     self.path = json["path"].string!
     self.imageExtension = json["extension"].string!
   }

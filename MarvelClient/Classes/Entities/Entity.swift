@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol Entity: JSONSerializable {
+public protocol Entity: JSONSerializable {
   
 }
 
-protocol EntitySummary: JSONSerializable {
+public protocol EntitySummary: JSONSerializable {
   var resourceURI: String { get }
   var name: String { get }
 }
