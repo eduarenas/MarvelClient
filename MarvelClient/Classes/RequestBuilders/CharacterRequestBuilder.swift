@@ -8,13 +8,6 @@
 
 import Foundation
 
-public enum CharacterRequestOrder: String {
-  case name = "name"
-  case modified = "modified"
-  case nameDescending = "-name"
-  case modifiedDescending = "-modified"
-}
-
 public class CharacterRequestBuilder: MarvelRequestBuilder {
   
   private let entityTypeString = "characters"
@@ -25,7 +18,7 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
   public var series: [Int]?
   public var events: [Int]?
   public var stories: [Int]?
-  public var orderBy: CharacterRequestOrder?
+  public var orderBy: [CharacterOrder]?
   
   init(privateKey: String, publicKey: String) {
     super.init(entityType: self.entityTypeString, privateKey: privateKey, publicKey: publicKey)
@@ -65,12 +58,12 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
     return self
   }
   
-  public func orderBy(orderBy: CharacterRequestOrder) -> Self {
+  public func orderBy(orderBy: [CharacterOrder]) -> Self {
     self.orderBy = orderBy
     return self
   }
   
-  override func buildQueryParameters() -> [String : String] {
+  override func buildQueryParameters() -> [String : AnyObject] {
     var queryParameters = super.buildQueryParameters()
     
     if let name = self.name {
@@ -80,7 +73,7 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
       queryParameters["nameStartsWith"] = String(nameStartsWith)
     }
     if let modifiedSince = self.modifiedSince {
-      queryParameters["modifiedSince"] = modifiedSince.marvelDateString
+      queryParameters["modifiedSince"] = modifiedSince.marvelDateTimeString
     }
     if let comics = self.comics {
       queryParameters["comics"] = comics.joinDescriptionsWithSeparator(",")
@@ -95,9 +88,20 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
       queryParameters["stories"] = stories.joinDescriptionsWithSeparator(",")
     }
     if let orderBy = self.orderBy {
-      queryParameters["orderBy"] = orderBy.rawValue
+      queryParameters["orderBy"] = orderBy.joinDescriptionsWithSeparator(",")
     }
     
     return queryParameters
+  }
+}
+
+public enum CharacterOrder: String, CustomStringConvertible {
+  case Name = "name"
+  case Modified = "modified"
+  case NameDescending = "-name"
+  case ModifiedDescending = "-modified"
+  
+  public var description: String {
+    return self.rawValue
   }
 }

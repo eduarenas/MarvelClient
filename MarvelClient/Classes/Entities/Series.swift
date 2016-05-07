@@ -18,7 +18,7 @@ public struct Series: Entity {
   
   public init(json: JSON) {
     self.id = json["id"].int!
-    self.modified = json["modified"].date!
+    self.modified = json["modified"].dateTime!
     self.resourceURI = json["resourceURI"].string!
     self.thumbnail = Image(json: json["thumbnail"])
   }

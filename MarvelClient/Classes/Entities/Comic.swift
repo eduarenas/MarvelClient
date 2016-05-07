@@ -46,7 +46,7 @@ public struct Comic: Entity {
     self.title = json["title"].string!
     self.issueNumber = json["issueNumber"].int!
     self.variantDescription = json["variantDescription"].string!
-    self.modified = json["modified"].date!  
+    self.modified = json["modified"].dateTime!
     self.isbn = json["isbn"].string!
     self.upc = json["upc"].string!
     self.diamondCode = json["diamondCode"].string!
@@ -90,7 +90,7 @@ public struct ComicDate: JSONSerializable {
   
   public init(json: JSON) {
     self.type = json["type"].string!
-    self.date = json["date"].date!
+    self.date = json["date"].dateTime!
   }
 }
 

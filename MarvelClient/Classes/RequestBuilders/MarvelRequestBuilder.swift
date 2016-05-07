@@ -80,8 +80,8 @@ public class MarvelRequestBuilder {
     }
   }
   
-  func buildQueryParameters() -> [String: String] {
-    var queryParameters = [String: String]()
+  func buildQueryParameters() -> [String: AnyObject] {
+    var queryParameters = [String: AnyObject]()
     
     if let limit = self.resultsLimit {
       queryParameters["limit"] = String(limit)
@@ -100,5 +100,15 @@ public class MarvelRequestBuilder {
             "apikey": self.publicKey,
             "hash": requestHash]
     
+  }
+}
+
+public struct DateRange: CustomStringConvertible {
+  
+  let startDate: NSDate
+  let endDate: NSDate
+  
+  public var description: String {
+    return "\(self.startDate.marvelDateString),\(self.endDate.marvelDateString)"
   }
 }

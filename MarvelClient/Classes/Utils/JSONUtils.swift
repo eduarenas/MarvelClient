@@ -10,11 +10,11 @@ import Foundation
 import SwiftyJSON
 
 extension JSON {
-  var date: NSDate? {
+  var dateTime: NSDate? {
     get {
       switch self.type {
       case .String:
-        return MarvelDateFormatter.marvelDateFormatter.dateFromString(self.object as! String)
+        return MarvelDateFormatter.marvelDateTimeFormatter.dateFromString(self.object as! String)
       default:
         return nil
       }
