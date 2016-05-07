@@ -23,7 +23,8 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
       case .Success:
         if let value = response.result.value {
           let json = JSON(value)
-          print("JSON: \(json)")
+          let result = Wrapper<Character>(json: json)
+          print(result)
         }
       case .Failure(let error):
         print(error)
