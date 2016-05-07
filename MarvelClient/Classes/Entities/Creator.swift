@@ -12,13 +12,13 @@ import SwiftyJSON
 public struct Creator: Entity {
   
   public let id: Int
-  public let modified: NSDate
+  public let modified: NSDate?
   public let resourceURI: String
   public let thumbnail: Image
   
   public init(json: JSON) {
     self.id = json["id"].int!
-    self.modified = json["modified"].dateTime!
+    self.modified = json["modified"].dateTime
     self.resourceURI = json["resourceURI"].string!
     self.thumbnail = Image(json: json["thumbnail"])
   }

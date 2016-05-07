@@ -480,16 +480,16 @@
 				A0CF8E901CDE28D100F84D65 /* Character.swift */,
 				A0CF8E9C1CDE3D8C00F84D65 /* Comic.swift */,
 				A0CF8E8E1CDE261F00F84D65 /* Container.swift */,
+				A0CF8EAC1CDE72D500F84D65 /* Creator.swift */,
+				A0CF8EA61CDE40A900F84D65 /* Entity.swift */,
 				A0CF8EA01CDE3DAE00F84D65 /* Event.swift */,
 				A0CF8EA41CDE3DEC00F84D65 /* Image.swift */,
 				A0CF8E9A1CDE3AD700F84D65 /* ResourceList.swift */,
 				A0CF8EA21CDE3DBA00F84D65 /* Series.swift */,
 				A0CF8E9E1CDE3D9C00F84D65 /* Story.swift */,
+				A0CF8EAE1CDE75ED00F84D65 /* TextObject.swift */,
 				A0CF8E981CDE36F400F84D65 /* Url.swift */,
 				A0CF8E8C1CDE261400F84D65 /* Wrapper.swift */,
-				A0CF8EA61CDE40A900F84D65 /* Entity.swift */,
-				A0CF8EAC1CDE72D500F84D65 /* Creator.swift */,
-				A0CF8EAE1CDE75ED00F84D65 /* TextObject.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -527,11 +527,11 @@
 		82DB50BF2D3669B594858F763DBB514D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				53046A9EAEFDC45D1AF60B3643952D30 /* DictionaryUtils.swift */,
-				0A88EBAF4F35EDB20EB6EF20908A0DCE /* StringUtils.swift */,
-				A0CF8E961CDE33DC00F84D65 /* JSONUtils.swift */,
-				A0CF8EA81CDE632F00F84D65 /* DateUtils.swift */,
 				A0CF8EAA1CDE668400F84D65 /* ArrayUtils.swift */,
+				A0CF8EA81CDE632F00F84D65 /* DateUtils.swift */,
+				53046A9EAEFDC45D1AF60B3643952D30 /* DictionaryUtils.swift */,
+				A0CF8E961CDE33DC00F84D65 /* JSONUtils.swift */,
+				0A88EBAF4F35EDB20EB6EF20908A0DCE /* StringUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -590,8 +590,8 @@
 			isa = PBXGroup;
 			children = (
 				F6C27C882B9410E3D8C8A8564B50DC8D /* CharacterRequestBuilder.swift */,
-				B33356AE4A3467C92B257727E455A1F9 /* MarvelRequestBuilder.swift */,
 				A0CF8EB01CDE7FA400F84D65 /* ComicRequestBuilder.swift */,
+				B33356AE4A3467C92B257727E455A1F9 /* MarvelRequestBuilder.swift */,
 			);
 			path = RequestBuilders;
 			sourceTree = "<group>";

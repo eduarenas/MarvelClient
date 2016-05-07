@@ -14,7 +14,7 @@ public struct Character: Entity {
   public let id: Int
   public let name: String
   public let description: String
-  public let modified: NSDate
+  public let modified: NSDate?
   public let resourceURI: String
   public let urls: [Url]
   public let thumbnail: Image
@@ -27,7 +27,7 @@ public struct Character: Entity {
     self.id = json["id"].int!
     self.name = json["name"].string!
     self.description = json["description"].string!
-    self.modified = json["modified"].dateTime!
+    self.modified = json["modified"].dateTime
     self.resourceURI = json["resourceURI"].string!
     self.urls = json["urls"].array!.map { Url(json: $0) }
     self.thumbnail = Image(json: json["thumbnail"])

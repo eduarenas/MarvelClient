@@ -16,7 +16,7 @@ public struct Comic: Entity {
   public let title: String
   public let issueNumber: Int
   public let variantDescription: String
-  public let modified: NSDate
+  public let modified: NSDate?
   public let isbn: String
   public let upc: String
   public let diamondCode: String
@@ -46,7 +46,7 @@ public struct Comic: Entity {
     self.title = json["title"].string!
     self.issueNumber = json["issueNumber"].int!
     self.variantDescription = json["variantDescription"].string!
-    self.modified = json["modified"].dateTime!
+    self.modified = json["modified"].dateTime
     self.isbn = json["isbn"].string!
     self.upc = json["upc"].string!
     self.diamondCode = json["diamondCode"].string!
@@ -86,11 +86,11 @@ public struct ComicSummary: EntitySummary {
 public struct ComicDate: JSONSerializable {
   
   let type: String
-  let date: NSDate
+  let date: NSDate?
   
   public init(json: JSON) {
     self.type = json["type"].string!
-    self.date = json["date"].dateTime!
+    self.date = json["date"].dateTime
   }
 }
 

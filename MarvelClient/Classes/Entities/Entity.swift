@@ -15,7 +15,7 @@ public protocol JSONSerializable {
 
 public protocol Entity: JSONSerializable {
   var id: Int { get }
-  var modified: NSDate { get }
+  var modified: NSDate? { get }
   var resourceURI: String { get }
   var thumbnail: Image { get }
 }

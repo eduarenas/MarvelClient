@@ -22,4 +22,8 @@ public class MarvelClient {
   public func requestCharacters() -> CharacterRequestBuilder {
     return CharacterRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
   }
+  
+  public func requestComics() -> ComicRequestBuilder {
+    return ComicRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+  }
 }
