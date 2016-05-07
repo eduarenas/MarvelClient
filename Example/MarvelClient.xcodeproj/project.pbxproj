@@ -42,7 +42,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7133F139FE76DC7D2C72C2DC /* MarvelClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MarvelClient.podspec; path = ../MarvelClient.podspec; sourceTree = "<group>"; };
-		A0CF8E851CDE1CEC00F84D65 /* MarvelKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarvelKeys.plist; path = Private/MarvelKeys.plist; sourceTree = "<group>"; };
+		A0CF8E851CDE1CEC00F84D65 /* MarvelKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarvelKeys.plist; path = Secret/MarvelKeys.plist; sourceTree = "<group>"; };
 		A0CF8E881CDE1DE600F84D65 /* PropertyListLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListLoader.swift; sourceTree = "<group>"; };
 		A4767BA3580DF2A457B43A58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A9370AAC2D0734B840B76DA1 /* Pods-MarvelClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelClient_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarvelClient_Example/Pods-MarvelClient_Example.release.xcconfig"; sourceTree = "<group>"; };
