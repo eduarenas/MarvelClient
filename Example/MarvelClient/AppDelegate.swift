@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     let marvelClient = MarvelClient(privateKey: "", publicKey: "")
+    marvelClient.requestCharacters().offset(0).limit(10).fetch()
     return true
   }
   

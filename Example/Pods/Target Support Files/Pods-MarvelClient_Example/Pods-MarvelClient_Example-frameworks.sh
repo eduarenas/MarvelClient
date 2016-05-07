@@ -55,9 +55,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-MarvelClient_Example/Alamofire.framework'
   install_framework 'Pods-MarvelClient_Example/MD5.framework'
   install_framework 'Pods-MarvelClient_Example/MarvelClient.framework'
+  install_framework 'Pods-MarvelClient_Example/SwiftyJSON.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-MarvelClient_Example/Alamofire.framework'
   install_framework 'Pods-MarvelClient_Example/MD5.framework'
   install_framework 'Pods-MarvelClient_Example/MarvelClient.framework'
+  install_framework 'Pods-MarvelClient_Example/SwiftyJSON.framework'
 fi

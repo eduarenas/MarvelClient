@@ -3,7 +3,9 @@ PODS:
   - MarvelClient (0.1.0):
     - Alamofire (~> 3.3)
     - MD5 (~> 0.1)
+    - SwiftyJSON (~> 2.3)
   - MD5 (0.1.1)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - MarvelClient (from `../`)
@@ -14,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
-  MarvelClient: cac7c62358517610e9be33fc4e8fc6f05e36f463
+  MarvelClient: 216539a3cb2840df21209d88c7ed71c27cc22420
   MD5: 62e4416c91af0514c6aeeb6e6d80171f3bd48c3f
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.38.2
