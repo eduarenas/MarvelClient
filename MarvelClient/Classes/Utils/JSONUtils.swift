@@ -24,9 +24,9 @@ extension JSON {
 }
 
 private class DateFormatter {
-  
+
   private static var internalJsonDateFormatter: NSDateFormatter?
-  
+
   static var jsonDateFormatter: NSDateFormatter {
     if (internalJsonDateFormatter == nil) {
       internalJsonDateFormatter = NSDateFormatter()
