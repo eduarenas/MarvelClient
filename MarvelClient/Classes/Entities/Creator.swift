@@ -1,5 +1,5 @@
 //
-//  Series.swift
+//  Creator.swift
 //  Pods
 //
 //  Created by Eduardo Arenas on 5/7/16.
@@ -9,7 +9,7 @@
 import Foundation
 import SwiftyJSON
 
-public struct Series: Entity {
+public struct Creator: Entity {
   
   public let id: Int
   public let modified: NSDate
@@ -24,7 +24,7 @@ public struct Series: Entity {
   }
 }
 
-public struct SeriesSummary: EntitySummary {
+public struct CreatorSummary: EntitySummary {
   
   public let resourceURI: String
   public let name: String
@@ -34,3 +34,4 @@ public struct SeriesSummary: EntitySummary {
     self.name = json["name"].string!
   }
 }
+

@@ -21,7 +21,6 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
   
   public var name: String?
   public var nameStartsWith: String?
-  public var modifiedSince: NSDate?
   public var comics: [Int]?
   public var series: [Int]?
   public var events: [Int]?
@@ -43,11 +42,6 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
   
   public func nameStartsWith(nameStartsWith: String) -> Self {
     self.nameStartsWith = nameStartsWith
-    return self
-  }
-  
-  public func modifiedSince(modifiedSince: NSDate) -> Self {
-    self.modifiedSince = modifiedSince
     return self
   }
   

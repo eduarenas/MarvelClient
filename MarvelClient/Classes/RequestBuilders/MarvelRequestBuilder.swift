@@ -20,6 +20,7 @@ public class MarvelRequestBuilder {
   
   public let entityType: String
   public var resultsFilter: MarvelResultsFilter?
+  public var modifiedSince: NSDate?
   public var resultsLimit: Int?
   public var resultsOffset: Int?
   
@@ -43,6 +44,11 @@ public class MarvelRequestBuilder {
     self.entityType = entityType
     self.privateKey = privateKey
     self.publicKey = publicKey
+  }
+  
+  public func modifiedSince(modifiedSince: NSDate) -> Self {
+    self.modifiedSince = modifiedSince
+    return self
   }
   
   public func filter(resultsFilter: MarvelResultsFilter) -> Self {
