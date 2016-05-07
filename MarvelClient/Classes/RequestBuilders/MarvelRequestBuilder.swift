@@ -68,7 +68,7 @@ public class MarvelRequestBuilder {
     
   }
   
-  func buildQueryParameters() -> [String: String] {
+  private func buildQueryParameters() -> [String: String] {
     var queryParameters = [String: String]()
     
     if let limit = self.resultsLimit {
