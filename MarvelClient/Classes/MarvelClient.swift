@@ -35,4 +35,8 @@ public class MarvelClient {
   public func requestEvents() -> EventRequestBuilder {
     return EventRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
   }
+  
+  public func requestSeries() -> SeriesRequestBuilder {
+    return SeriesRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+  }
 }
