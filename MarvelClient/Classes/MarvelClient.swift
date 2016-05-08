@@ -39,4 +39,8 @@ public class MarvelClient {
   public func requestSeries() -> SeriesRequestBuilder {
     return SeriesRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
   }
+  
+  public func requestStories() -> StoryRequestBuilder {
+    return StoryRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+  }
 }

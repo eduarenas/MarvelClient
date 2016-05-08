@@ -1,5 +1,5 @@
 //
-//  SeriesRequestBuilder.swift
+//  StoryRequestBuilder.swift
 //  Pods
 //
 //  Created by Eduardo Arenas on 5/8/16.
@@ -8,43 +8,23 @@
 
 import Foundation
 
-public class SeriesRequestBuilder: MarvelRequestBuilder {
+public class StoryRequestBuilder: MarvelRequestBuilder {
   
-  private let entityTypeString = "series"
+  private let entityTypeString = "stories"
   
-  public var title: String?
-  public var titleStartsWith: String?
-  public var startYear: Int?
   public var comics: [Int]?
-  public var stories: [Int]?
+  public var series: [Int]?
   public var events: [Int]?
   public var creators: [Int]?
   public var characters: [Int]?
-  public var seriesType: SeriesType?
-  public var contains: [ComicFormat]?
   public var orderBy: [SeriesOrder]?
   
   init(privateKey: String, publicKey: String) {
     super.init(entityType: self.entityTypeString, privateKey: privateKey, publicKey: publicKey)
   }
   
-  public func fetch(completionHandler: Wrapper<Series> -> Void) {
+  public func fetch(completionHandler: Wrapper<Story> -> Void) {
     super.fetchResults(completionHandler)
-  }
-  
-  public func title(title: String) -> Self {
-    self.title = title
-    return self
-  }
-  
-  public func titleStartsWith(titleStartsWith: String) -> Self {
-    self.titleStartsWith = titleStartsWith
-    return self
-  }
-  
-  public func startYear(startYear: Int) -> Self {
-    self.startYear = startYear
-    return self
   }
   
   public func comics(comics: [Int]) -> Self {
@@ -52,8 +32,8 @@ public class SeriesRequestBuilder: MarvelRequestBuilder {
     return self
   }
   
-  public func stories(stories: [Int]) -> Self {
-    self.stories = stories
+  public func series(series: [Int]) -> Self {
+    self.series = series
     return self
   }
   
@@ -71,7 +51,7 @@ public class SeriesRequestBuilder: MarvelRequestBuilder {
     self.characters = characters
     return self
   }
-
+  
   public func orderBy(orderBy: [SeriesOrder]) -> Self {
     self.orderBy = orderBy
     return self
@@ -79,21 +59,12 @@ public class SeriesRequestBuilder: MarvelRequestBuilder {
   
   override func buildQueryParameters() -> [String : AnyObject] {
     var queryParameters = super.buildQueryParameters()
-    
-    if let title = self.title {
-      queryParameters["title"] = title
-    }
-    if let titleStartsWith = self.titleStartsWith {
-      queryParameters["titleStartsWith"] = titleStartsWith
-    }
-    if let startYear = self.startYear {
-      queryParameters["startYear"] = startYear
-    }
+
     if let comics = self.comics {
       queryParameters["comics"] = comics.joinDescriptionsWithSeparator(",")
     }
-    if let stories = self.stories {
-      queryParameters["stories"] = stories.joinDescriptionsWithSeparator(",")
+    if let series = self.series {
+      queryParameters["series"] = series.joinDescriptionsWithSeparator(",")
     }
     if let events = self.events {
       queryParameters["events"] = events.joinDescriptionsWithSeparator(",")
@@ -112,22 +83,14 @@ public class SeriesRequestBuilder: MarvelRequestBuilder {
   }
 }
 
-public enum SeriesType: String {
-  case Collection = "collection"
-  case OneShot = "one shot"
-  case Limited = "limited"
-  case Ongoing = "ongoing"
-}
-
-public enum SeriesOrder: String, CustomStringConvertible {
-  case Name = "name"
-  case StartDate = "startDate"
+public enum StoryOrder: String, CustomStringConvertible {
+  case Id = "id"
   case Modified = "modified"
-  case NameDescending = "-name"
-  case StartDateDescending = "-startDate"
+  case IdDescending = "-id"
   case ModifiedDescending = "-modified"
   
   public var description: String {
     return self.rawValue
   }
 }
+
