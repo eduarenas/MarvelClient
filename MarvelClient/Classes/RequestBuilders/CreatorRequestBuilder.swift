@@ -138,15 +138,15 @@ public class CreatorRequestBuilder: MarvelRequestBuilder {
 }
 
 public enum CreatorOrder: String, CustomStringConvertible {
-  case FocDate = "focDate"
-  case OnsaleDate = "onsaleDate"
-  case Title = "title"
-  case IssueNumber = "issueNumber"
+  case LastName = "lastName"
+  case FirstName = "firstName"
+  case MiddleName = "middleName"
+  case Suffix = "suffix"
   case Modified = "modified"
-  case FocDateDescending = "-focDate"
-  case OnsaleDateDescending = "-onsaleDate"
-  case TitleDescending = "-title"
-  case IssueNumberDescending = "-issueNumber"
+  case LastNameDescending = "-lastName"
+  case FirstNameDescending = "-firstName"
+  case MiddleNameDescending = "-middleName"
+  case SuffixDescending = "-suffix"
   case ModifiedDescending = "-modified"
   
   public var description: String {

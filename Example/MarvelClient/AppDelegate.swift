@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     let keysDict = PropertyListLoader(fileName: "MarvelKeys").dictionaryRepresentation!
     let marvelClient = MarvelClient(privateKey: keysDict["privateKey"] as! String, publicKey: keysDict["publicKey"] as! String)
-    marvelClient.requestCreators().firstName("Stan").offset(0).limit(10).fetch { (result) in
+    marvelClient.requestEvents().nameStartsWith("Civil").limit(10).fetch { (result) in
       print(result)
     }
     return true

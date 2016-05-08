@@ -42,11 +42,11 @@ public struct CharacterSummary: EntitySummary {
   
   public let resourceURI: String
   public let name: String
-  public let role: String
+  public let role: String?
   
   public init(json: JSON) {
     self.resourceURI = json["resourceURI"].string!
     self.name = json["name"].string!
-    self.role = json["role"].string!
+    self.role = json["role"].string
   }
 }

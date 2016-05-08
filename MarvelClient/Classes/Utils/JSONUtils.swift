@@ -14,7 +14,8 @@ extension JSON {
     get {
       switch self.type {
       case .String:
-        return MarvelDateFormatter.marvelDateTimeFormatter.dateFromString(self.object as! String)
+        let stringSelf = self.object as! String
+        return MarvelDateFormatter.marvelDateTimeFormatterWithTimezone.dateFromString(stringSelf) ?? MarvelDateFormatter.marvelDateTimeFormatter.dateFromString(stringSelf)
       default:
         return nil
       }

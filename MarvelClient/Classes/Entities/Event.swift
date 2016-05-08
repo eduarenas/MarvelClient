@@ -25,8 +25,8 @@ public struct Event: Entity {
   public let series: ResourceList<SeriesSummary>
   public let characters: ResourceList<CharacterSummary>
   public let creators: ResourceList<CreatorSummary>
-  public let next: EventSummary
-  public let previous: EventSummary
+  public let next: EventSummary?
+  public let previous: EventSummary?
   
   public init(json: JSON) {
     self.id = json["id"].int!
@@ -43,8 +43,8 @@ public struct Event: Entity {
     self.series = ResourceList<SeriesSummary>(json: json["series"])
     self.characters = ResourceList<CharacterSummary>(json: json["characters"])
     self.creators = ResourceList<CreatorSummary>(json: json["creators"])
-    self.next = EventSummary(json: json["next"])
-    self.previous = EventSummary(json: json["previous"])
+    self.next = json["next"].type != .Null ? EventSummary(json: json["next"]) : nil
+    self.previous = json["previous"].type != .Null ? EventSummary(json: json["previous"]) : nil
   }
 }
 
