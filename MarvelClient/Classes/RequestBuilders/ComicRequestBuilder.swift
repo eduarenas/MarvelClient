@@ -37,8 +37,8 @@ public class ComicRequestBuilder: MarvelRequestBuilder {
   public var collaborators: [Int]?
   public var orderBy: [ComicOrder]?
   
-  init(privateKey: String, publicKey: String) {
-    super.init(entityType: self.entityTypeString, privateKey: privateKey, publicKey: publicKey)
+  init(keys: MarvelAPIKeys) {
+    super.init(entityType: self.entityTypeString, keys: keys)
   }
   
   public func fetch(completionHandler: Wrapper<Comic> -> Void) {

@@ -15,8 +15,7 @@ public typealias MarvelResultsFilter = (entityTipe: String, id: String)
 public class MarvelRequestBuilder {
   
   private let baseEndpoint = "https://gateway.marvel.com/v1/public/"
-  private let privateKey: String
-  private let publicKey: String
+  private let keys: MarvelAPIKeys
   
   public let entityType: String
   public var resultsFilter: MarvelResultsFilter?
@@ -40,10 +39,9 @@ public class MarvelRequestBuilder {
     }
   }
   
-  init(entityType: String, privateKey: String, publicKey: String) {
+  init(entityType: String, keys: MarvelAPIKeys) {
     self.entityType = entityType
-    self.privateKey = privateKey
-    self.publicKey = publicKey
+    self.keys = keys
   }
   
   public func modifiedSince(modifiedSince: NSDate) -> Self {
@@ -98,9 +96,9 @@ public class MarvelRequestBuilder {
   
   private func buildAuthenticationParameters() -> [String: String] {
     let timestamp = NSDate().timeIntervalSince1970
-    let requestHash = "\(timestamp)\(self.privateKey)\(self.publicKey)".md5Hash
+    let requestHash = "\(timestamp)\(self.keys.privateKey)\(self.keys.publicKey)".md5Hash
     return ["ts": "\(timestamp)",
-            "apikey": self.publicKey,
+            "apikey": self.keys.publicKey,
             "hash": requestHash]
     
   }

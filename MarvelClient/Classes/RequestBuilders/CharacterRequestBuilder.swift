@@ -20,8 +20,8 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
   public var stories: [Int]?
   public var orderBy: [CharacterOrder]?
   
-  init(privateKey: String, publicKey: String) {
-    super.init(entityType: self.entityTypeString, privateKey: privateKey, publicKey: publicKey)
+  init(keys: MarvelAPIKeys) {
+    super.init(entityType: self.entityTypeString, keys: keys)
   }
 
   public func fetch(completionHandler: Wrapper<Character> -> Void) {

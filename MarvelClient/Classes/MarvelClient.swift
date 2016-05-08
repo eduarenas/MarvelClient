@@ -9,38 +9,37 @@
 import Foundation
 import Alamofire
 
+typealias MarvelAPIKeys = (privateKey: String, publicKey: String)
+
 public class MarvelClient {
   
-  // TODO: pack this on a Tuple or Struct
-  let privateKey: String
-  let publicKey: String
+  let keys: MarvelAPIKeys
   
   public init(privateKey: String, publicKey: String) {
-    self.privateKey = privateKey
-    self.publicKey = publicKey
+    self.keys = (privateKey, publicKey)
   }
   
   public func requestCharacters() -> CharacterRequestBuilder {
-    return CharacterRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+    return CharacterRequestBuilder(keys: self.keys)
   }
   
   public func requestComics() -> ComicRequestBuilder {
-    return ComicRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+    return ComicRequestBuilder(keys: self.keys)
   }
   
   public func requestCreators() -> CreatorRequestBuilder {
-    return CreatorRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+    return CreatorRequestBuilder(keys: self.keys)
   }
   
   public func requestEvents() -> EventRequestBuilder {
-    return EventRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+    return EventRequestBuilder(keys: self.keys)
   }
   
   public func requestSeries() -> SeriesRequestBuilder {
-    return SeriesRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+    return SeriesRequestBuilder(keys: self.keys)
   }
   
   public func requestStories() -> StoryRequestBuilder {
-    return StoryRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+    return StoryRequestBuilder(keys: self.keys)
   }
 }
