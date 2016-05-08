@@ -11,6 +11,7 @@ import Alamofire
 
 public class MarvelClient {
   
+  // TODO: pack this on a Tuple or Struct
   let privateKey: String
   let publicKey: String
   
@@ -25,5 +26,9 @@ public class MarvelClient {
   
   public func requestComics() -> ComicRequestBuilder {
     return ComicRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
+  }
+  
+  public func requestCreators() -> CreatorRequestBuilder {
+    return CreatorRequestBuilder(privateKey: self.privateKey, publicKey: self.publicKey)
   }
 }

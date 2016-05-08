@@ -14,11 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   var window: UIWindow?
   
-  
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     let keysDict = PropertyListLoader(fileName: "MarvelKeys").dictionaryRepresentation!
     let marvelClient = MarvelClient(privateKey: keysDict["privateKey"] as! String, publicKey: keysDict["publicKey"] as! String)
-    marvelClient.requestComics().format(.Comic).offset(0).limit(2).fetch { (result) in
+    marvelClient.requestCreators().firstName("Stan").offset(0).limit(10).fetch { (result) in
       print(result)
     }
     return true

@@ -29,7 +29,7 @@ public class CreatorRequestBuilder: MarvelRequestBuilder {
     super.init(entityType: self.entityTypeString, privateKey: privateKey, publicKey: publicKey)
   }
   
-  public func fetch(completionHandler: Wrapper<Comic> -> Void) {
+  public func fetch(completionHandler: Wrapper<Creator> -> Void) {
     super.fetchResults(completionHandler)
   }
   
