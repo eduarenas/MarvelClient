@@ -35,7 +35,7 @@ public class ComicRequestBuilder: MarvelRequestBuilder {
   public var stories: [Int]?
   public var sharedAppearances: [Int]?
   public var collaborators: [Int]?
-  public var orderBy: ComicOrder?
+  public var orderBy: [ComicOrder]?
   
   init(privateKey: String, publicKey: String) {
     super.init(entityType: self.entityTypeString, privateKey: privateKey, publicKey: publicKey)
@@ -160,7 +160,7 @@ public class ComicRequestBuilder: MarvelRequestBuilder {
     return self
   }
 
-  public func orderBy(orderBy: ComicOrder) -> Self {
+  public func orderBy(orderBy: [ComicOrder]) -> Self {
     self.orderBy = orderBy
     return self
   }
@@ -238,7 +238,7 @@ public class ComicRequestBuilder: MarvelRequestBuilder {
       queryParameters["collaborators"] = collaborators.joinDescriptionsWithSeparator(",")
     }
     if let orderBy = self.orderBy {
-      queryParameters["orderBy"] = orderBy.rawValue
+      queryParameters["orderBy"] = orderBy.joinDescriptionsWithSeparator(",")
     }
 
     return queryParameters

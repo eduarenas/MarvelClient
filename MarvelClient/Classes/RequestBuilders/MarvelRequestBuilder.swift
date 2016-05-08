@@ -83,6 +83,9 @@ public class MarvelRequestBuilder {
   func buildQueryParameters() -> [String: AnyObject] {
     var queryParameters = [String: AnyObject]()
     
+    if let modifiedSince = self.modifiedSince {
+      queryParameters["modifiedSince"] = modifiedSince.marvelDateTimeString
+    }
     if let limit = self.resultsLimit {
       queryParameters["limit"] = String(limit)
     }

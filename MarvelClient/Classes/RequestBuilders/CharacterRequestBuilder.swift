@@ -67,13 +67,10 @@ public class CharacterRequestBuilder: MarvelRequestBuilder {
     var queryParameters = super.buildQueryParameters()
     
     if let name = self.name {
-      queryParameters["name"] = String(name)
+      queryParameters["name"] = name
     }
     if let nameStartsWith = self.nameStartsWith {
-      queryParameters["nameStartsWith"] = String(nameStartsWith)
-    }
-    if let modifiedSince = self.modifiedSince {
-      queryParameters["modifiedSince"] = modifiedSince.marvelDateTimeString
+      queryParameters["nameStartsWith"] = nameStartsWith
     }
     if let comics = self.comics {
       queryParameters["comics"] = comics.joinDescriptionsWithSeparator(",")
