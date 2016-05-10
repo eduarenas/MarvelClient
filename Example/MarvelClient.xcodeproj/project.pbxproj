@@ -13,7 +13,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A02C5B4D1CE2A97B000B823F /* ArrayUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B4C1CE2A97B000B823F /* ArrayUtilsTests.swift */; };
 		A0CF8E861CDE1CEC00F84D65 /* MarvelKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0CF8E851CDE1CEC00F84D65 /* MarvelKeys.plist */; };
 		A0CF8E891CDE1DE600F84D65 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF8E881CDE1DE600F84D65 /* PropertyListLoader.swift */; };
 		BAB6787821AD7EBC75EC1A1D /* Pods_MarvelClient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA60B600AFD9D48EAF7AAA9E /* Pods_MarvelClient_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -40,8 +40,9 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MarvelClient_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelClient_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7133F139FE76DC7D2C72C2DC /* MarvelClient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MarvelClient.podspec; path = ../MarvelClient.podspec; sourceTree = "<group>"; };
+		A02C5B4B1CE2A97B000B823F /* MarvelClient_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarvelClient_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A02C5B4C1CE2A97B000B823F /* ArrayUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayUtilsTests.swift; sourceTree = "<group>"; };
 		A0CF8E851CDE1CEC00F84D65 /* MarvelKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarvelKeys.plist; path = Secret/MarvelKeys.plist; sourceTree = "<group>"; };
 		A0CF8E881CDE1DE600F84D65 /* PropertyListLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListLoader.swift; sourceTree = "<group>"; };
 		A4767BA3580DF2A457B43A58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -121,7 +122,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				A02C5B4B1CE2A97B000B823F /* MarvelClient_Tests-Bridging-Header.h */,
+				A02C5B481CE2A919000B823F /* Utils */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -152,6 +154,14 @@
 				FAD7D4E5914FCF01209AA7F6 /* Pods_MarvelClient_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A02C5B481CE2A919000B823F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A02C5B4C1CE2A97B000B823F /* ArrayUtilsTests.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		A0CF8E871CDE1D5D00F84D65 /* Utils */ = {
@@ -223,7 +233,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -384,7 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				A02C5B4D1CE2A97B000B823F /* ArrayUtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4F52BB1BF39C462E10EB085 /* Pods-MarvelClient_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -542,6 +553,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Utils/MarvelClient_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -549,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA54E473A14AEB3C83E55BC8 /* Pods-MarvelClient_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -557,6 +571,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Utils/MarvelClient_Tests-Bridging-Header.h";
 			};
 			name = Release;
 		};

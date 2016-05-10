@@ -13,6 +13,8 @@ extension SequenceType where Generator.Element: CustomStringConvertible {
   /// the result.  For example:
   ///
   ///     [1, 2, 3].joinWithSeparator("-|-") // "1-|-2-|-3"
+  /// - parameter separator: Separator used to join descriptions
+  /// - returns: String representation of the items in the array
   @warn_unused_result
   func joinDescriptionsWithSeparator(separator: String) -> String {
     let descriptionsArray = self.map { $0.description }
