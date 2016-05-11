@@ -17,6 +17,7 @@
 		A02C5B4F1CE2AC2F000B823F /* DateUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B4E1CE2AC2F000B823F /* DateUtilsTests.swift */; };
 		A02C5B511CE2B515000B823F /* DictionaryUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B501CE2B515000B823F /* DictionaryUtilsTests.swift */; };
 		A02C5B531CE2B733000B823F /* StringUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B521CE2B733000B823F /* StringUtilsTests.swift */; };
+		A02C5B551CE2B9F7000B823F /* JSONUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C5B541CE2B9F7000B823F /* JSONUtilsTests.swift */; };
 		A0CF8E861CDE1CEC00F84D65 /* MarvelKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0CF8E851CDE1CEC00F84D65 /* MarvelKeys.plist */; };
 		A0CF8E891CDE1DE600F84D65 /* PropertyListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF8E881CDE1DE600F84D65 /* PropertyListLoader.swift */; };
 		BAB6787821AD7EBC75EC1A1D /* Pods_MarvelClient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA60B600AFD9D48EAF7AAA9E /* Pods_MarvelClient_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -49,6 +50,7 @@
 		A02C5B4E1CE2AC2F000B823F /* DateUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtilsTests.swift; sourceTree = "<group>"; };
 		A02C5B501CE2B515000B823F /* DictionaryUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryUtilsTests.swift; sourceTree = "<group>"; };
 		A02C5B521CE2B733000B823F /* StringUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtilsTests.swift; sourceTree = "<group>"; };
+		A02C5B541CE2B9F7000B823F /* JSONUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONUtilsTests.swift; sourceTree = "<group>"; };
 		A0CF8E851CDE1CEC00F84D65 /* MarvelKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MarvelKeys.plist; path = Secret/MarvelKeys.plist; sourceTree = "<group>"; };
 		A0CF8E881CDE1DE600F84D65 /* PropertyListLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListLoader.swift; sourceTree = "<group>"; };
 		A4767BA3580DF2A457B43A58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				A02C5B4E1CE2AC2F000B823F /* DateUtilsTests.swift */,
 				A02C5B501CE2B515000B823F /* DictionaryUtilsTests.swift */,
 				A02C5B521CE2B733000B823F /* StringUtilsTests.swift */,
+				A02C5B541CE2B9F7000B823F /* JSONUtilsTests.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02C5B551CE2B9F7000B823F /* JSONUtilsTests.swift in Sources */,
 				A02C5B531CE2B733000B823F /* StringUtilsTests.swift in Sources */,
 				A02C5B4D1CE2A97B000B823F /* ArrayUtilsTests.swift in Sources */,
 				A02C5B4F1CE2AC2F000B823F /* DateUtilsTests.swift in Sources */,

@@ -56,10 +56,10 @@ class MarvelDateFormatter {
   
   /**
    Get a combined date and time in date formatter to convert to and from the ISO 8601 standard
-   used by Marvel's API.  For example:
+   used by Marvel's API (minus the T).  For example:
    
-       2014-03-03T10:00:00
-   - returns: Date formatter to convert combined date and times to and from ISO 8601 without a timezone
+       2014-03-03 10:00:00
+   - returns: Date formatter to convert combined date and times to and from ISO 8601 (minus the T) without a timezone
    */
   static var marvelDateTimeFormatter: NSDateFormatter {
     if (internalMarvelDateTimeFormatter == nil) {
