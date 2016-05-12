@@ -22,13 +22,13 @@ class DateUtilsTests: XCTestCase {
     dateComponents.day = 3
     dateComponents.hour = 10
     dateComponents.minute = 0
-    dateComponents.timeZone = NSTimeZone(abbreviation: "EST")
+    dateComponents.timeZone = NSTimeZone(abbreviation: "UTC")
     
     self.date = NSCalendar.currentCalendar().dateFromComponents(dateComponents)
   }
   
   func testMarvelDateTimeFormattedCorrectly() {
-    XCTAssertEqual(self.date?.marvelDateTimeString, "2014-03-03T15:00:00+0000")
+    XCTAssertEqual(self.date?.marvelDateTimeString, "2014-03-03T10:00:00+0000")
   }
   
   func testMarvelDateFormattedCorrectly() {

@@ -12,31 +12,32 @@ import SwiftyJSON
 
 class JSONUtilsTests: XCTestCase {
   
-  
-  var date: NSDate?
-  
-  override func setUp() {
-    super.setUp()
-    
+  func testDateTimeFromStringWithTimeZone() {
     let dateComponents = NSDateComponents()
     dateComponents.year = 2014
     dateComponents.month = 3
     dateComponents.day = 3
     dateComponents.hour = 10
     dateComponents.minute = 0
-    dateComponents.timeZone = NSTimeZone(abbreviation: "EST")
+    dateComponents.timeZone = NSTimeZone(abbreviation: "UTC")
     
-    self.date = NSCalendar.currentCalendar().dateFromComponents(dateComponents)
-  }
-  
-  func testDateTimeFromStringWithTimeZone() {
-    let jsonDate = JSON(stringLiteral: "2014-03-03T15:00:00-0000")
-    XCTAssertEqual(jsonDate.dateTime, self.date)
+    let date = NSCalendar.currentCalendar().dateFromComponents(dateComponents)
+    
+    let jsonDate = JSON(stringLiteral: "2014-03-03T10:00:00-0000")
+    XCTAssertEqual(jsonDate.dateTime, date)
   }
   
   func testDateTimeFromStringWithoutTimeZone() {
+    let dateComponents = NSDateComponents()
+    dateComponents.year = 2014
+    dateComponents.month = 3
+    dateComponents.day = 3
+    dateComponents.hour = 10
+    dateComponents.minute = 0
+    let date = NSCalendar.currentCalendar().dateFromComponents(dateComponents)
+    
     let jsonDate = JSON(stringLiteral: "2014-03-03 10:00:00")
-    XCTAssertEqual(jsonDate.dateTime, self.date)
+    XCTAssertEqual(jsonDate.dateTime, date)
   }
   
   func testDateTimeReturnsNilIfNotADate() {
