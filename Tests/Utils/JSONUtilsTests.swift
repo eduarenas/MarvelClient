@@ -30,7 +30,7 @@ class JSONUtilsTests: XCTestCase {
   }
   
   func testDateTimeFromStringWithTimeZone() {
-    let jsonDate = JSON(stringLiteral: "2014-03-03T10:00:00-0500")
+    let jsonDate = JSON(stringLiteral: "2014-03-03T15:00:00-0000")
     XCTAssertEqual(jsonDate.dateTime, self.date)
   }
   

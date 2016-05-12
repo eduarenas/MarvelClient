@@ -28,12 +28,10 @@ class DateUtilsTests: XCTestCase {
   }
   
   func testMarvelDateTimeFormattedCorrectly() {
-    print(self.date!)
-    XCTAssertEqual(self.date?.marvelDateTimeString, "2014-03-03T10:00:00-0500")
+    XCTAssertEqual(self.date?.marvelDateTimeString, "2014-03-03T15:00:00+0000")
   }
   
   func testMarvelDateFormattedCorrectly() {
-    print(self.date!)
     XCTAssertEqual(self.date?.marvelDateString, "2014-03-03")
   }
 }

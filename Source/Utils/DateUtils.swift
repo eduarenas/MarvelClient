@@ -49,6 +49,7 @@ class MarvelDateFormatter {
   static var marvelDateTimeFormatterWithTimezone: NSDateFormatter {
     if (internalMarvelDateTimeFormatterWithTimezone == nil) {
       internalMarvelDateTimeFormatterWithTimezone = NSDateFormatter()
+      internalMarvelDateTimeFormatterWithTimezone!.timeZone = NSTimeZone(abbreviation: "UTC")
       internalMarvelDateTimeFormatterWithTimezone!.dateFormat =  "yyyy'-'MM'-'dd'T'HH':'mm':'ssZZ"
     }
     return internalMarvelDateTimeFormatterWithTimezone!
