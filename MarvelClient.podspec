@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.author           = { "Eduardo Arenas" => "eapdev@gmail.com" }
   s.source           = { :git => "https://github.com/eduarenas80/MarvelClient.git", :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'MarvelClient/Classes/**/*'
+  s.source_files = 'Source/**/*'
 
-  s.dependency 'Alamofire', '~> 3.3'
+  s.dependency 'Alamofire', '~> 3.4'
   s.dependency 'MD5', '~> 0.1'
   s.dependency 'SwiftyJSON', '~> 2.3'
 end
