@@ -40,6 +40,7 @@
 		A0BAA2471CE3FDB200B2AE5D /* JSONUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAA22D1CE3FDB200B2AE5D /* JSONUtils.swift */; };
 		A0BAA2481CE3FDB200B2AE5D /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAA22E1CE3FDB200B2AE5D /* StringUtils.swift */; };
 		A0D49F791CEE8EB8007562C0 /* CharacterRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D49F781CEE8EB8007562C0 /* CharacterRequestBuilderTests.swift */; };
+		A0D49F7C1CEE9FEB007562C0 /* ComicRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D49F7B1CEE9FEB007562C0 /* ComicRequestBuilderTests.swift */; };
 		DD8244EBD89C1264832251E2 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B2900009F82701D8DEC469 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -94,6 +95,7 @@
 		A0BAA22E1CE3FDB200B2AE5D /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		A0BAA2491CE3FF5600B2AE5D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D49F781CEE8EB8007562C0 /* CharacterRequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRequestBuilderTests.swift; sourceTree = "<group>"; };
+		A0D49F7B1CEE9FEB007562C0 /* ComicRequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComicRequestBuilderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				A0D49F781CEE8EB8007562C0 /* CharacterRequestBuilderTests.swift */,
+				A0D49F7B1CEE9FEB007562C0 /* ComicRequestBuilderTests.swift */,
 			);
 			path = RequestBuilders;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				A0D49F791CEE8EB8007562C0 /* CharacterRequestBuilderTests.swift in Sources */,
 				A0BAA20E1CE3FD6A00B2AE5D /* DictionaryUtilsTests.swift in Sources */,
 				A0BAA20F1CE3FD6A00B2AE5D /* JSONUtilsTests.swift in Sources */,
+				A0D49F7C1CEE9FEB007562C0 /* ComicRequestBuilderTests.swift in Sources */,
 				A0BAA20C1CE3FD6A00B2AE5D /* ArrayUtilsTests.swift in Sources */,
 				A0BAA20D1CE3FD6A00B2AE5D /* DateUtilsTests.swift in Sources */,
 			);

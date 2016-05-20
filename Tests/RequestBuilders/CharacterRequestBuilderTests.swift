@@ -29,7 +29,7 @@ class CharacterRequestBuilderTests: XCTestCase {
     XCTAssertNotNil(self.requestBuilder!.parameters["hash"])
   }
   
-  func testNameParameterGetsSetOnRequest() {
+  func testNameGetsSetOnRequest() {
     let builder = self.requestBuilder!.name("Spiderman")
     XCTAssertEqual(builder.parameters["name"] as? String, "Spiderman")
   }
@@ -59,23 +59,17 @@ class CharacterRequestBuilderTests: XCTestCase {
     XCTAssertEqual(builder.parameters["stories"] as? String, "1,2,3")
   }
   
-  func testOrderByGetsSetOnRequestForName() {
+  func testOrderByGetsSetOnRequest() {
     let builder = self.requestBuilder!.orderBy([.Name])
     XCTAssertEqual(builder.parameters["orderBy"] as? String, "name")
-  }
-
-  func testOrderByGetsSetOnRequestForModified() {
-    let builder = self.requestBuilder!.orderBy([.Modified])
+    
+    builder.orderBy([.Modified])
     XCTAssertEqual(builder.parameters["orderBy"] as? String, "modified")
-  }
-  
-  func testOrderByGetsSetOnRequestForNameDescending() {
-    let builder = self.requestBuilder!.orderBy([.NameDescending])
+
+    builder.orderBy([.NameDescending])
     XCTAssertEqual(builder.parameters["orderBy"] as? String, "-name")
-  }
-  
-  func testOrderByGetsSetOnRequestForModifiedDescending() {
-    let builder = self.requestBuilder!.orderBy([.ModifiedDescending])
+
+    builder.orderBy([.ModifiedDescending])
     XCTAssertEqual(builder.parameters["orderBy"] as? String, "-modified")
   }
   
