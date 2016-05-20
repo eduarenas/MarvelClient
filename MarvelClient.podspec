@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
                           portal (http://developer.marvel.com) to be able to access the API.
                        DESC
 
-  s.homepage         = "https://github.com/eduarenas80/MarvelClient"
+  s.homepage         = "https://github.com/eduarenas/MarvelClient"
   s.license          = 'MIT'
   s.author           = { "Eduardo Arenas" => "eapdev@gmail.com" }
-  s.source           = { :git => "https://github.com/eduarenas80/MarvelClient.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/eduarenas/MarvelClient.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
