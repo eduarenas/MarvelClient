@@ -175,7 +175,7 @@ class ComicRequestBuilderTests: XCTestCase {
     XCTAssertEqual(builder.parameters["series"] as? String, "1,2,3")
   }
   
-  func testEvensGetsSetOnRequest() {
+  func testEventsGetsSetOnRequest() {
     let builder = self.requestBuilder!.events([1, 2, 3])
     XCTAssertEqual(builder.parameters["events"] as? String, "1,2,3")
   }

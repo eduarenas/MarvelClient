@@ -45,7 +45,7 @@ public class EventRequestBuilder: MarvelRequestBuilder {
   }
   
   public func characters(characters: [Int]) -> Self {
-    self.series = series
+    self.characters = characters
     return self
   }
   
@@ -59,7 +59,7 @@ public class EventRequestBuilder: MarvelRequestBuilder {
     return self
   }
 
-  public func stories(events: [Int]) -> Self {
+  public func stories(stories: [Int]) -> Self {
     self.stories = stories
     return self
   }
