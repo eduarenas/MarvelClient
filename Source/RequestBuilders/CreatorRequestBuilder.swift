@@ -83,7 +83,7 @@ public class CreatorRequestBuilder: MarvelRequestBuilder {
     return self
   }
   
-  public func stories(events: [Int]) -> Self {
+  public func stories(stories: [Int]) -> Self {
     self.stories = stories
     return self
   }

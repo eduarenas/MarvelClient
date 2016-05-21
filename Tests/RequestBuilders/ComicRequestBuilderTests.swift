@@ -19,7 +19,7 @@ class ComicRequestBuilderTests: XCTestCase {
     self.requestBuilder = self.marvelClient.requestComics()
   }
   
-  func testGetsInitializedWithCharacterEntityType() {
+  func testGetsInitializedWithComicEntityType() {
     XCTAssertEqual(self.requestBuilder?.entityType, "comics")
   }
   
@@ -107,7 +107,7 @@ class ComicRequestBuilderTests: XCTestCase {
     XCTAssertEqual(builder.parameters["title"] as? String, "Iron Man")
   }
   
-  func testTitleSartsWithGetsSetOnRequest() {
+  func testTitleStartsWithGetsSetOnRequest() {
     let builder = self.requestBuilder!.titleStartsWith("Iron")
     XCTAssertEqual(builder.parameters["titleStartsWith"] as? String, "Iron")
   }
@@ -232,4 +232,3 @@ class ComicRequestBuilderTests: XCTestCase {
     XCTAssertEqual(builder.parameters["orderBy"] as? String, "focDate,-onsaleDate")
   }
 }
-
