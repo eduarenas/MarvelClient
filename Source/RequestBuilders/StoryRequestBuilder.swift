@@ -17,7 +17,7 @@ public class StoryRequestBuilder: MarvelRequestBuilder {
   public var events: [Int]?
   public var creators: [Int]?
   public var characters: [Int]?
-  public var orderBy: [SeriesOrder]?
+  public var orderBy: [StoryOrder]?
   
   init(keys: MarvelAPIKeys) {
     super.init(entityType: self.entityTypeString, keys: keys)
@@ -52,7 +52,7 @@ public class StoryRequestBuilder: MarvelRequestBuilder {
     return self
   }
   
-  public func orderBy(orderBy: [SeriesOrder]) -> Self {
+  public func orderBy(orderBy: [StoryOrder]) -> Self {
     self.orderBy = orderBy
     return self
   }
