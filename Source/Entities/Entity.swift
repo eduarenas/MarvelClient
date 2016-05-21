@@ -41,3 +41,12 @@ public protocol EntitySummary: JSONSerializable {
   var resourceURI: String { get }
   var name: String { get }
 }
+
+public enum EntityType: String {
+  case Characters = "characters"
+  case Comics = "comics"
+  case Creators = "creators"
+  case Events = "events"
+  case Series = "series"
+  case Stories = "stories"
+}

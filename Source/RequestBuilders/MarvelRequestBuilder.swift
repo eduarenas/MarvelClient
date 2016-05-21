@@ -27,7 +27,7 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-public typealias MarvelResultsFilter = (entityTipe: String, id: String)
+public typealias MarvelResultsFilter = (entityTipe: EntityType, id: Int)
 
 public class MarvelRequestBuilder {
   
@@ -50,7 +50,7 @@ public class MarvelRequestBuilder {
   
   var url: String {
     if let filter = self.resultsFilter {
-      return "\(self.baseEndpoint)\(filter.entityTipe)/\(filter.id)/\(self.entityType)"
+      return "\(self.baseEndpoint)\(filter.entityTipe.rawValue)/\(filter.id)/\(self.entityType)"
     } else {
       return "\(self.baseEndpoint)\(self.entityType)"
     }
@@ -102,10 +102,10 @@ public class MarvelRequestBuilder {
       queryParameters["modifiedSince"] = modifiedSince.marvelDateTimeString
     }
     if let limit = self.resultsLimit {
-      queryParameters["limit"] = String(limit)
+      queryParameters["limit"] = limit
     }
     if let offset = self.resultsOffset {
-      queryParameters["offset"] = String(offset)
+      queryParameters["offset"] = offset
     }
     
     return queryParameters
