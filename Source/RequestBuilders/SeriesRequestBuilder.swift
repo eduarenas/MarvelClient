@@ -71,6 +71,16 @@ public class SeriesRequestBuilder: MarvelRequestBuilder {
     self.characters = characters
     return self
   }
+  
+  public func seriesType(seriesType: SeriesType) -> Self {
+    self.seriesType = seriesType
+    return self
+  }
+  
+  public func contains(contains: [ComicFormat]) -> Self {
+    self.contains = contains
+    return self
+  }
 
   public func orderBy(orderBy: [SeriesOrder]) -> Self {
     self.orderBy = orderBy
@@ -104,6 +114,12 @@ public class SeriesRequestBuilder: MarvelRequestBuilder {
     if let characters = self.characters {
       queryParameters["characters"] = characters.joinDescriptionsWithSeparator(",")
     }
+    if let seriesType = self.seriesType {
+      queryParameters["seriesType"] = seriesType.rawValue
+    }
+    if let contains = self.contains {
+      queryParameters["contains"] = contains.joinDescriptionsWithSeparator(",")
+    }
     if let orderBy = self.orderBy {
       queryParameters["orderBy"] = orderBy.joinDescriptionsWithSeparator(",")
     }
@@ -120,11 +136,11 @@ public enum SeriesType: String {
 }
 
 public enum SeriesOrder: String, CustomStringConvertible {
-  case Name = "name"
-  case StartDate = "startDate"
+  case Title = "title"
+  case StartYear = "startYear"
   case Modified = "modified"
-  case NameDescending = "-name"
-  case StartDateDescending = "-startDate"
+  case TitleDescending = "-title"
+  case StartYearDescending = "-startYear"
   case ModifiedDescending = "-modified"
   
   public var description: String {

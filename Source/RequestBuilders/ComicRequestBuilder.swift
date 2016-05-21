@@ -245,7 +245,7 @@ public class ComicRequestBuilder: MarvelRequestBuilder {
   }
 }
 
-public enum ComicFormat: String {
+public enum ComicFormat: String, CustomStringConvertible {
   case Comic = "comic"
   case Magazine = "magazine"
   case TradePaperback = "trade paperback"
@@ -254,6 +254,10 @@ public enum ComicFormat: String {
   case GraphicNovel = "graphic novel"
   case DigitalComic = "digital comic"
   case InfiniteComic = "infinite comic"
+  
+  public var description: String {
+    return self.rawValue
+  }
 }
 
 public enum ComicFormatType: String {

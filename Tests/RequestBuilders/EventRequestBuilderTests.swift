@@ -19,7 +19,7 @@ class EventRequestBuilderTests: XCTestCase {
     self.requestBuilder = self.marvelClient.requestEvents()
   }
   
-  func testGetsInitializedWithComicEntityType() {
+  func testGetsInitializedWithEventEntityType() {
     XCTAssertEqual(self.requestBuilder?.entityType, "events")
   }
   
