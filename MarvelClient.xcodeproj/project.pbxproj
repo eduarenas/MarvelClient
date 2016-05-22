@@ -12,6 +12,7 @@
 		A066A6661CF00983002C9AFD /* StoryRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066A6651CF00983002C9AFD /* StoryRequestBuilderTests.swift */; };
 		A066A6681CF11645002C9AFD /* MarvelRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066A6671CF11645002C9AFD /* MarvelRequestBuilderTests.swift */; };
 		A0745D431CEFF53C00546D7D /* CreatorRequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0745D421CEFF53C00546D7D /* CreatorRequestBuilderTests.swift */; };
+		A0B34FAE1CF145D600BC8E4A /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B34FAD1CF145D600BC8E4A /* EntityTests.swift */; };
 		A0BAA1F71CE3FC1200B2AE5D /* MarvelClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BAA1EC1CE3FC1200B2AE5D /* MarvelClient.framework */; };
 		A0BAA20C1CE3FD6A00B2AE5D /* ArrayUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAA2071CE3FD6A00B2AE5D /* ArrayUtilsTests.swift */; };
 		A0BAA20D1CE3FD6A00B2AE5D /* DateUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BAA2081CE3FD6A00B2AE5D /* DateUtilsTests.swift */; };
@@ -68,6 +69,7 @@
 		A066A6651CF00983002C9AFD /* StoryRequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryRequestBuilderTests.swift; sourceTree = "<group>"; };
 		A066A6671CF11645002C9AFD /* MarvelRequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelRequestBuilderTests.swift; sourceTree = "<group>"; };
 		A0745D421CEFF53C00546D7D /* CreatorRequestBuilderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatorRequestBuilderTests.swift; sourceTree = "<group>"; };
+		A0B34FAD1CF145D600BC8E4A /* EntityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
 		A0BAA1EC1CE3FC1200B2AE5D /* MarvelClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarvelClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BAA1F61CE3FC1200B2AE5D /* MarvelClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0BAA1FD1CE3FC1200B2AE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -145,6 +147,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A0B34FAC1CF1457A00BC8E4A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A0B34FAD1CF145D600BC8E4A /* EntityTests.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		A0BAA1E21CE3FC1200B2AE5D = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +190,7 @@
 		A0BAA1FA1CE3FC1200B2AE5D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				A0B34FAC1CF1457A00BC8E4A /* Entities */,
 				A0D49F7A1CEE8EC8007562C0 /* RequestBuilders */,
 				A0BAA2111CE3FD7B00B2AE5D /* MarvelClient_Tests-Bridging-Header.h */,
 				A0BAA2061CE3FD6A00B2AE5D /* Utils */,
@@ -442,6 +453,7 @@
 				A0BAA20E1CE3FD6A00B2AE5D /* DictionaryUtilsTests.swift in Sources */,
 				A066A6641CEFFF17002C9AFD /* SeriesRequestBuilderTests.swift in Sources */,
 				A0BAA20F1CE3FD6A00B2AE5D /* JSONUtilsTests.swift in Sources */,
+				A0B34FAE1CF145D600BC8E4A /* EntityTests.swift in Sources */,
 				A066A6661CF00983002C9AFD /* StoryRequestBuilderTests.swift in Sources */,
 				A0745D431CEFF53C00546D7D /* CreatorRequestBuilderTests.swift in Sources */,
 				A0D49F7C1CEE9FEB007562C0 /* ComicRequestBuilderTests.swift in Sources */,

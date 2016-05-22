@@ -1,5 +1,5 @@
 //
-//  Entity.swift
+//  EntityTests.swift
 //  MarvelClient
 //
 //  Copyright (c) 2016 Eduardo Arenas <eapdev@gmail.com>
@@ -23,43 +23,22 @@
 //  THE SOFTWARE.
 //
 
-import Foundation
+import XCTest
 import SwiftyJSON
+@testable import MarvelClient
 
-public protocol JSONSerializable {
-  init(json: JSON)
-}
-
-public protocol Entity: JSONSerializable {
-  var id: Int { get }
-  var modified: NSDate? { get }
-  var resourceURI: String { get }
-  var thumbnail: Image { get }
-}
-
-public protocol EntitySummary: JSONSerializable {
-  var resourceURI: String { get }
-  var name: String { get }
-  var id: Int? { get }
-}
-
-public extension EntitySummary {
-  var id: Int? {
-    guard let url = NSURL(string: self.resourceURI) else {
-      return nil
-    }
-    guard let pathComponents = url.pathComponents else {
-      return nil
-    }
-    return Int(pathComponents.last!)
+class EntityTests: XCTestCase {
+  
+  var entitySummary: EntitySummary?
+  
+  override func setUp() {
+    super.setUp()
+    let jsonSummary: JSON = ["resourceURI": "http://gateway.marvel.com/v1/public/comics/51577", "name": "Civil War"]
+    self.entitySummary = ComicSummary(json: jsonSummary)
   }
-}
-
-public enum EntityType: String {
-  case Characters = "characters"
-  case Comics = "comics"
-  case Creators = "creators"
-  case Events = "events"
-  case Series = "series"
-  case Stories = "stories"
+  
+  func testIdGetsExtractedCorrectly() {
+    XCTAssertEqual(entitySummary?.id, 51577)
+  }
+  
 }
