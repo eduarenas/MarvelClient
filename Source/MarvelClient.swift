@@ -44,20 +44,40 @@ public class MarvelClient {
     return CharacterRequestBuilder(keys: self.keys)
   }
   
+  public func requestComic(id: Int, completionHandler: Wrapper<Comic> -> Void) {
+    ComicRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
+  }
+  
   public func requestComics() -> ComicRequestBuilder {
     return ComicRequestBuilder(keys: self.keys)
+  }
+  
+  public func requestCreator(id: Int, completionHandler: Wrapper<Creator> -> Void) {
+    CreatorRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
   }
   
   public func requestCreators() -> CreatorRequestBuilder {
     return CreatorRequestBuilder(keys: self.keys)
   }
   
+  public func requestEvent(id: Int, completionHandler: Wrapper<Event> -> Void) {
+    EventRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
+  }
+  
   public func requestEvents() -> EventRequestBuilder {
     return EventRequestBuilder(keys: self.keys)
   }
   
+  public func requestSeries(id: Int, completionHandler: Wrapper<Series> -> Void) {
+    SeriesRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
+  }
+  
   public func requestSeries() -> SeriesRequestBuilder {
     return SeriesRequestBuilder(keys: self.keys)
+  }
+  
+  public func requestStory(id: Int, completionHandler: Wrapper<Story> -> Void) {
+    StoryRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
   }
   
   public func requestStories() -> StoryRequestBuilder {
