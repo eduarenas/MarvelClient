@@ -33,7 +33,8 @@ public class MarvelRequestBuilder {
   
   private let baseEndpoint = "https://gateway.marvel.com/v1/public/"
   private let keys: MarvelAPIKeys
-  private var entityId: Int?
+  
+  var entityId: Int?
   
   public let entityType: String
   public var resultsFilter: MarvelResultsFilter?

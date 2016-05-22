@@ -44,6 +44,11 @@ class MarvelRequestBuilderTests: XCTestCase {
     XCTAssertEqual(builder.url, "https://gateway.marvel.com/v1/public/comics/123/characters")
   }
   
+  func testUrlGetsGeneratedForFetchingByEntity() {
+    self.requestBuilder!.entityId = 123
+    XCTAssertEqual(self.requestBuilder!.url, "https://gateway.marvel.com/v1/public/characters/123")
+  }
+  
   func testModifiedSinceGetsSetOnRequest() {
     let dateComponents = NSDateComponents()
     dateComponents.year = 2014
