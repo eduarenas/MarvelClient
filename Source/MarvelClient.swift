@@ -36,6 +36,10 @@ public class MarvelClient {
     self.keys = (privateKey, publicKey)
   }
   
+  public func requestCharacter(id: Int, completionHandler: Wrapper<Character> -> Void) {
+    CharacterRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
+  }
+  
   public func requestCharacters() -> CharacterRequestBuilder {
     return CharacterRequestBuilder(keys: self.keys)
   }

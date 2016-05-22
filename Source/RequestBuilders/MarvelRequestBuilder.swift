@@ -33,6 +33,7 @@ public class MarvelRequestBuilder {
   
   private let baseEndpoint = "https://gateway.marvel.com/v1/public/"
   private let keys: MarvelAPIKeys
+  private var entityId: Int?
   
   public let entityType: String
   public var resultsFilter: MarvelResultsFilter?
@@ -51,6 +52,8 @@ public class MarvelRequestBuilder {
   var url: String {
     if let filter = self.resultsFilter {
       return "\(self.baseEndpoint)\(filter.entityTipe.rawValue)/\(filter.id)/\(self.entityType)"
+    } else if let id = self.entityId {
+      return "\(self.baseEndpoint)\(self.entityType)/\(id)"
     } else {
       return "\(self.baseEndpoint)\(self.entityType)"
     }
@@ -93,6 +96,11 @@ public class MarvelRequestBuilder {
         print(error)
       }
     }
+  }
+  
+  func fetchResultById<T: Entity>(id: Int, completionHandler: Wrapper<T> -> Void) {
+    self.entityId = id
+    fetchResults(completionHandler)
   }
   
   func buildQueryParameters() -> [String: AnyObject] {
