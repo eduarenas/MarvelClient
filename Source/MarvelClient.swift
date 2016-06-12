@@ -40,12 +40,26 @@ public class MarvelClient {
     CharacterRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
   }
   
+  public func requestCharacter(characterSummary: CharacterSummary, completionHandler: Wrapper<Character> -> Void) {
+    guard let entityId = characterSummary.id else {
+      return
+    }
+    self.requestCharacter(entityId, completionHandler: completionHandler)
+  }
+  
   public func requestCharacters() -> CharacterRequestBuilder {
     return CharacterRequestBuilder(keys: self.keys)
   }
   
   public func requestComic(id: Int, completionHandler: Wrapper<Comic> -> Void) {
     ComicRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
+  }
+  
+  public func requestComic(comicSummary: ComicSummary, completionHandler: Wrapper<Comic> -> Void) {
+    guard let entityId = comicSummary.id else {
+      return
+    }
+    self.requestComic(entityId, completionHandler: completionHandler)
   }
   
   public func requestComics() -> ComicRequestBuilder {
@@ -56,6 +70,13 @@ public class MarvelClient {
     CreatorRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
   }
   
+  public func requestCreator(creatorSummary: CreatorSummary, completionHandler: Wrapper<Creator> -> Void) {
+    guard let entityId = creatorSummary.id else {
+      return
+    }
+    self.requestCreator(entityId, completionHandler: completionHandler)
+  }
+  
   public func requestCreators() -> CreatorRequestBuilder {
     return CreatorRequestBuilder(keys: self.keys)
   }
@@ -64,12 +85,26 @@ public class MarvelClient {
     EventRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
   }
   
+  public func requestEvent(eventSummary: EventSummary, completionHandler: Wrapper<Event> -> Void) {
+    guard let entityId = eventSummary.id else {
+      return
+    }
+    self.requestEvent(entityId, completionHandler: completionHandler)
+  }
+  
   public func requestEvents() -> EventRequestBuilder {
     return EventRequestBuilder(keys: self.keys)
   }
   
   public func requestSeries(id: Int, completionHandler: Wrapper<Series> -> Void) {
     SeriesRequestBuilder(keys: self.keys).fetchResultById(id, completionHandler: completionHandler)
+  }
+  
+  public func requestSeries(seriesSummary: SeriesSummary, completionHandler: Wrapper<Series> -> Void) {
+    guard let entityId = seriesSummary.id else {
+      return
+    }
+    self.requestSeries(entityId, completionHandler: completionHandler)
   }
   
   public func requestSeries() -> SeriesRequestBuilder {

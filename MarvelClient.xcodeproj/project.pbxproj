@@ -191,10 +191,10 @@
 			isa = PBXGroup;
 			children = (
 				A0B34FAC1CF1457A00BC8E4A /* Entities */,
-				A0D49F7A1CEE8EC8007562C0 /* RequestBuilders */,
-				A0BAA2111CE3FD7B00B2AE5D /* MarvelClient_Tests-Bridging-Header.h */,
-				A0BAA2061CE3FD6A00B2AE5D /* Utils */,
 				A0BAA1FD1CE3FC1200B2AE5D /* Info.plist */,
+				A0BAA2111CE3FD7B00B2AE5D /* MarvelClient_Tests-Bridging-Header.h */,
+				A0D49F7A1CEE8EC8007562C0 /* RequestBuilders */,
+				A0BAA2061CE3FD6A00B2AE5D /* Utils */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -264,9 +264,9 @@
 				A0D49F7B1CEE9FEB007562C0 /* ComicRequestBuilderTests.swift */,
 				A0745D421CEFF53C00546D7D /* CreatorRequestBuilderTests.swift */,
 				A066A6611CEFFBC9002C9AFD /* EventRequestBuilderTests.swift */,
+				A066A6671CF11645002C9AFD /* MarvelRequestBuilderTests.swift */,
 				A066A6631CEFFF17002C9AFD /* SeriesRequestBuilderTests.swift */,
 				A066A6651CF00983002C9AFD /* StoryRequestBuilderTests.swift */,
-				A066A6671CF11645002C9AFD /* MarvelRequestBuilderTests.swift */,
 			);
 			path = RequestBuilders;
 			sourceTree = "<group>";

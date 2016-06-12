@@ -40,5 +40,4 @@ class EntityTests: XCTestCase {
   func testIdGetsExtractedCorrectly() {
     XCTAssertEqual(entitySummary?.id, 51577)
   }
-  
 }
